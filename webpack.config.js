@@ -25,7 +25,7 @@ module.exports = (env, argv) => {
       port: 8080,
       hot: true,
       open: false,
-      watchFiles: ['src/**/*', 'index.html']
+      watchFiles: ['src/**/*', 'index.html', 'assets/**/*']
     },
     
     module: {

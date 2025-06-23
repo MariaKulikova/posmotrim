@@ -8,6 +8,7 @@
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
     "sass": "sass assets/scss/general.scss assets/css/style.css --watch",
     "sass:build": "sass assets/scss/general.scss assets/css/style.css --style=compressed",
     "preview": "live-server dist --port=8080 --no-browser"
