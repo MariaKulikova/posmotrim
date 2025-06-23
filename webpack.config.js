@@ -15,6 +15,7 @@ module.exports = (env, argv) => {
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'js/[name].[contenthash].js',
+      publicPath: './',
       clean: true
     },
     
@@ -90,7 +91,7 @@ module.exports = (env, argv) => {
       new HtmlWebpackPlugin({
         template: './index.html',
         filename: 'index.html',
-        publicPath: '/',
+        publicPath: './',
         minify: isProduction ? {
           removeComments: true,
           collapseWhitespace: true,
