@@ -1,0 +1,127 @@
+// Typography Classes
+
+.display-large {
+  @include display-large;
+}
+
+.display-medium {
+  @include display-medium;
+}
+
+.headline-large {
+  @include headline-large;
+}
+
+.headline-medium {
+  @include headline-medium;
+}
+
+.body-large {
+  @include body-large;
+}
+
+.body-medium {
+  @include body-medium;
+}
+
+.body-small {
+  font-family: $font-body;
+  font-size: $body-small-size;
+  line-height: $body-small-line-height;
+  font-weight: $font-regular;
+}
+
+.label-large {
+  @include label-large;
+}
+
+.label-medium {
+  font-family: $font-body;
+  font-size: $label-medium-size;
+  line-height: $label-medium-line-height;
+  letter-spacing: 0.5px;
+  font-weight: $font-medium;
+}
+
+// Typography Utilities
+.font-black {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: $font-bold;
+}
+
+.font-semibold {
+  font-weight: $font-semibold;
+}
+
+.font-medium {
+  font-weight: $font-medium;
+}
+
+.font-regular {
+  font-weight: $font-regular;
+}
+
+// Text Colors
+.text-primary {
+  color: $color-text-primary;
+}
+
+.text-secondary {
+  color: $color-text-secondary;
+}
+
+.text-accent {
+  color: $color-accent;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+.text-gray-400 {
+  color: $color-gray-400;
+}
+
+// Text Alignment
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// Typography Shortcuts  
+.heading-xl {
+  @include display-large;
+  font-weight: 900;
+  color: $color-text-primary;
+}
+
+.heading-lg {
+  @include headline-large;
+  font-weight: 900;
+  color: $color-text-primary;
+}
+
+.heading-md {
+  @include headline-medium;
+  font-weight: 900;
+  color: $color-text-primary;
+}
+
+.text-body {
+  @include body-large;
+  color: $color-text-secondary;
+}
+
+.text-label {
+  @include label-large;
+}

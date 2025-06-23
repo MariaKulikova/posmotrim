@@ -1,0 +1,74 @@
+// Variables
+
+// Typography
+$font-display: 'Manrope', 'Helvetica', 'Arial', sans-serif;
+$font-body: 'Manrope', 'Helvetica', 'Arial', sans-serif;
+$font-mono: 'Consolas', 'Monaco', 'Courier New', monospace;
+
+// Font Weights
+$font-extralight: 200;
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+
+// Font Sizes - Display
+$display-large-size: 57px;
+$display-large-line-height: 64px;
+$display-large-tracking: -0.25px;
+$display-medium-size: 45px;
+$display-medium-line-height: 52px;
+$display-small-size: 36px;
+$display-small-line-height: 44px;
+
+// Font Sizes - Headlines
+$headline-large-size: 32px;
+$headline-large-line-height: 40px;
+$headline-medium-size: 28px;
+$headline-medium-line-height: 36px;
+$headline-small-size: 24px;
+$headline-small-line-height: 32px;
+
+// Font Sizes - Body
+$body-large-size: 16px;
+$body-large-line-height: 24px;
+$body-medium-size: 14px;
+$body-medium-line-height: 20px;
+$body-small-size: 12px;
+$body-small-line-height: 16px;
+
+// Font Sizes - Labels
+$label-large-size: 14px;
+$label-large-line-height: 20px;
+$label-medium-size: 12px;
+$label-medium-line-height: 16px;
+$label-small-size: 11px;
+$label-small-line-height: 16px;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+$spacing-3xl: 64px;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Layout
+$sidebar-width: 480px;
+$container-max-width: 1200px;
+
+// Transitions
+$transition-fast: 150ms;
+$transition-base: 250ms;
+$transition-slow: 350ms;
+$transition-timing: cubic-bezier(0.4, 0, 0.2, 1);

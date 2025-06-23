@@ -1,0 +1,104 @@
+// Mixins
+
+// Typography Mixins
+@mixin display-large {
+  font-family: $font-display;
+  font-size: $display-large-size;
+  line-height: $display-large-line-height;
+  letter-spacing: $display-large-tracking;
+  font-weight: $font-regular;
+}
+
+@mixin display-medium {
+  font-family: $font-display;
+  font-size: $display-medium-size;
+  line-height: $display-medium-line-height;
+  font-weight: $font-regular;
+}
+
+@mixin headline-large {
+  font-family: $font-display;
+  font-size: $headline-large-size;
+  line-height: $headline-large-line-height;
+  font-weight: $font-regular;
+}
+
+@mixin headline-medium {
+  font-family: $font-display;
+  font-size: $headline-medium-size;
+  line-height: $headline-medium-line-height;
+  font-weight: $font-regular;
+}
+
+@mixin body-large {
+  font-family: $font-body;
+  font-size: $body-large-size;
+  line-height: $body-large-line-height;
+  font-weight: $font-regular;
+}
+
+@mixin body-medium {
+  font-family: $font-body;
+  font-size: $body-medium-size;
+  line-height: $body-medium-line-height;
+  font-weight: $font-regular;
+}
+
+@mixin label-large {
+  font-family: $font-body;
+  font-size: $label-large-size;
+  line-height: $label-large-line-height;
+  letter-spacing: 0.1px;
+  font-weight: $font-medium;
+}
+
+// Responsive Mixins
+@mixin media-min($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin media-max($breakpoint) {
+  @media (max-width: $breakpoint - 1px) {
+    @content;
+  }
+}
+
+// Layout Mixins
+@mixin container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+  
+  @include media-min($breakpoint-lg) {
+    padding: 0 $spacing-xl;
+  }
+}
+
+// Component Mixins
+@mixin section-component {
+  background-color: $color-white;
+  border: 2px dashed $color-accent;
+  padding: $spacing-xl;
+  margin: $spacing-xl;
+  position: relative;
+  overflow: hidden;
+  
+  @include media-max($breakpoint-md) {
+    padding: $spacing-lg;
+    margin: $spacing-md;
+  }
+}
+
+// Utility Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition($property: all) {
+  transition: $property $transition-fast $transition-timing;
+}

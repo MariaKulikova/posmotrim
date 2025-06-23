@@ -1,0 +1,264 @@
+// Section Components
+
+// Base Section Component
+.section-component {
+  @include section-component;
+  max-width: $container-max-width;
+  
+  // Component Variations
+  &--no-border {
+    border: none;
+  }
+  
+  &--accent {
+    background-color: $color-surface-tint;
+  }
+  
+  &--dark {
+    background-color: $color-text-primary;
+    color: $color-white;
+  }
+}
+
+// Main content constraints
+main {
+  min-width: 0; // Prevent flex child from overflowing
+}
+
+// Cases Component
+.cases {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  
+  &__header {
+    max-width: 800px;
+  }
+  
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    align-items: start;
+    
+    @include media-max($breakpoint-lg) {
+      grid-template-columns: 1fr;
+      gap: $spacing-xl;
+    }
+  }
+  
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+    padding: $spacing-xl;
+    border: 2px dashed $color-accent;
+    background-color: $color-white;
+    margin-left: -$spacing-xl;
+  }
+  
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+}
+
+// Services Component
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    
+    @include media-max($breakpoint-md) {
+      grid-template-columns: 1fr;
+      gap: $spacing-xl;
+    }
+  }
+  
+  &__column {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+  
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm + $spacing-xs;
+  }
+}
+
+// Process Component
+.process {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    align-items: center;
+    
+    @include media-max($breakpoint-md) {
+      grid-template-columns: 1fr;
+      gap: $spacing-xl;
+    }
+  }
+  
+  &__steps {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xl;
+  }
+  
+  &__step {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+  
+  &__visual {
+    width: 100%;
+    height: 400px;
+    background-color: $color-gray-100;
+    border-radius: 8px;
+    @include flex-center;
+  }
+}
+
+// Philosophy Component
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  
+  &__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: $spacing-2xl;
+    align-items: start;
+    
+    @include media-max($breakpoint-lg) {
+      grid-template-columns: 1fr;
+      gap: $spacing-xl;
+    }
+  }
+  
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+  
+  &__quote {
+    padding: $spacing-xl;
+    border: 2px dashed $color-accent;
+    margin-right: -$spacing-xl;
+  }
+}
+
+// Experience Component
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+  
+  &__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-lg;
+  }
+  
+  &__item {
+    position: relative;
+    background-color: $color-gray-100;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+    
+    &:hover &-overlay {
+      transform: translateY(0);
+    }
+  }
+  
+  &__item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $color-white;
+    padding: $spacing-lg;
+    transform: translateY(100%);
+    @include transition(transform);
+  }
+}
+
+// Contacts Component (CTA)
+.contacts {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 400px;
+  
+  &__title {
+    max-width: 800px;
+  }
+  
+  &__subtitle {
+    max-width: 600px;
+  }
+}
+
+// Utility Classes for Components
+.component-label {
+  position: absolute;
+  top: $spacing-sm;
+  right: $spacing-sm;
+  background-color: $color-accent;
+  color: $color-white;
+  padding: $spacing-xs $spacing-sm + $spacing-xs;
+  border-radius: 4px;
+  font-size: $label-medium-size;
+  font-weight: $font-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// List Items with Bullets
+.list-bullet-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-bullet {
+  display: inline-block;
+  width: 0.375rem;
+  height: 0.375rem;
+  background-color: $color-text-primary;
+  border-radius: 9999px;
+  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}

@@ -1,0 +1,92 @@
+// Main SCSS file
+
+// 1. Configuration
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'mixins/mixins';
+
+// 2. General Reset Styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: $font-body;
+  font-weight: $font-regular;
+  line-height: 1.5;
+  color: $color-text-primary;
+  background-color: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-display;
+  font-weight: inherit;
+  line-height: 1.2;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+// Layout
+.layout-container {
+  display: flex;
+  position: relative;
+}
+
+// Main Content Area
+.main-content {
+  flex: 1;
+  width: 100%;
+  
+  @include media-min($breakpoint-lg) {
+    margin-right: $sidebar-width;
+  }
+}
+
+// 3. Typography
+@import 'styles/typography';
+
+// 4. Components
+@import 'components/sections';
+@import 'components/before-after';
+@import 'components/sidebar';
+
+// 5. Pages
+@import 'pages/home';
