@@ -95,7 +95,7 @@ module.exports = (env, argv) => {
         minify: isProduction ? {
           removeComments: true,
           collapseWhitespace: true,
-          removeAttributeQuotes: true
+          removeAttributeQuotes: false
         } : false
       }),
       
