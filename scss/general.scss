@@ -1,13 +1,16 @@
 // Main SCSS file
 
-// 1. Configuration
 @import 'styles/colors';
 @import 'styles/variables';
+@import 'mixins/mixins';
+@import 'styles/typography';
+@import 'components/sections';
+@import 'components/before-after';
+@import 'components/sidebar';
+@import 'components/mobile-navbar';
+@import 'components/carousel';
+@import 'pages/home';
 
-// Utility Mixins
-@mixin transition($property: all) {
-  transition: $property $transition-fast $transition-timing;
-}
 
 // 2. General Reset Styles
 *,
@@ -95,15 +98,3 @@ button {
   }
 }
 
-// 3. Typography
-@import 'styles/typography';
-
-// 4. Components
-@import 'components/sections';
-@import 'components/before-after';
-@import 'components/sidebar';
-@import 'components/mobile-navbar';
-@import 'components/carousel';
-
-// 5. Pages
-@import 'pages/home';
