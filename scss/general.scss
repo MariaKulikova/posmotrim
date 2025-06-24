@@ -3,7 +3,11 @@
 // 1. Configuration
 @import 'styles/colors';
 @import 'styles/variables';
-@import 'mixins/mixins';
+
+// Utility Mixins
+@mixin transition($property: all) {
+  transition: $property $transition-fast $transition-timing;
+}
 
 // 2. General Reset Styles
 *,
@@ -75,15 +79,15 @@ button {
 .main-content {
   flex: 1;
   width: 100%;
-  padding: $spacing-md;
+  padding: $spacing-sm;
   
   @include media-min($breakpoint-md) {
-    padding: $spacing-lg;
+    padding: $spacing-sm;
   }
   
   @include media-min($breakpoint-lg) {
     margin-right: $sidebar-width;
-    padding: $spacing-xl;
+    padding: $spacing-md;
   }
   
   @include media-min($breakpoint-xl) {

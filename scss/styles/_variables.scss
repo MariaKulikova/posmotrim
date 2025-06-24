@@ -1,0 +1,41 @@
+// Variables
+
+
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+$spacing-3xl: 64px;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Layout
+$sidebar-width: 480px;
+$navbar-height: 56px;
+$container-max-width: 1200px;
+
+// Transitions
+$transition-fast: 150ms;
+$transition-base: 250ms;
+$transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+
+// Responsive Mixins
+@mixin media-min($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin media-max($breakpoint) {
+  @media (max-width: $breakpoint - 1px) {
+    @content;
+  }
+}

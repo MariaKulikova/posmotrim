@@ -9,8 +9,7 @@ module.exports = (env, argv) => {
   
   return {
     entry: {
-      main: './src/js/index.js',
-      styles: './src/styles/main.js'
+      main: './js/index.js'
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
@@ -24,9 +23,8 @@ module.exports = (env, argv) => {
         directory: path.join(__dirname, 'dist'),
       },
       port: 8080,
-      hot: true,
-      open: false,
-      watchFiles: ['src/**/*', 'index.html', 'assets/**/*']
+      hot: false,
+      open: false
     },
     
     module: {
@@ -50,7 +48,7 @@ module.exports = (env, argv) => {
               loader: 'sass-loader',
               options: {
                 sassOptions: {
-                  includePaths: [path.resolve(__dirname, 'assets/scss')]
+                  includePaths: [path.resolve(__dirname, 'scss')]
                 }
               }
             }
@@ -84,7 +82,7 @@ module.exports = (env, argv) => {
       new CleanWebpackPlugin(),
       
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         filename: 'index.html',
         inject: true,
         minify: isProduction ? {

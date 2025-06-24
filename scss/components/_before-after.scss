@@ -2,7 +2,9 @@
 
 // First Screen Section
 .first-screen {
-  // Inherits styles from .section-component
+  // Override section-component padding and margin
+  padding: 0 !important;
+  margin: 0 !important;
   
   &__container {
     width: 100%;
@@ -46,7 +48,6 @@
     left: 50%;
     width: 4px;
     height: 100%;
-    background-color: $color-white;
     transform: translateX(-50%);
     z-index: 3;
     cursor: col-resize;
@@ -82,36 +83,13 @@
   
   // Dragging State
   &--dragging {
-    cursor: col-resize !important;
+    cursor: col-resize;
     
     * {
-      cursor: col-resize !important;
+      cursor: col-resize;
     }
   }
-  
-  // Labels
-  &__labels {
-    position: absolute;
-    top: $spacing-lg - $spacing-xs;
-    left: $spacing-lg - $spacing-xs;
-    right: $spacing-lg - $spacing-xs;
-    display: flex;
-    justify-content: space-between;
-    z-index: 4;
-    pointer-events: none;
-  }
-  
-  &__label {
-    background-color: rgba(255, 255, 255, 0.95);
-    color: $color-text-primary;
-    padding: $spacing-sm $spacing-md;
-    border-radius: 24px;
-    font-size: $label-large-size;
-    font-weight: $font-semibold;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
+
 }
 
 // Responsive adjustments
@@ -120,21 +98,6 @@
     height: 500px;
   }
   
-  .comparison-slider {
-    &__handle {
-      width: 3px;
-      
-      &::before {
-        width: 32px;
-        height: 32px;
-      }
-    }
-    
-    &__label {
-      font-size: $label-medium-size;
-      padding: $spacing-xs + 2px $spacing-sm + $spacing-xs;
-    }
-  }
 }
 
 @include media-max($breakpoint-sm) {
@@ -142,16 +105,4 @@
     height: 400px;
   }
   
-  .comparison-slider {
-    &__labels {
-      top: $spacing-sm;
-      left: $spacing-sm;
-      right: $spacing-sm;
-    }
-    
-    &__label {
-      font-size: $label-small-size;
-      padding: $spacing-xs $spacing-sm;
-    }
-  }
 }

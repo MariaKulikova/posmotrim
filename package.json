@@ -11,7 +11,9 @@
     "watch": "webpack --mode development --watch",
     "sass": "sass assets/scss/general.scss assets/css/style.css --watch",
     "sass:build": "sass assets/scss/general.scss assets/css/style.css --style=compressed",
-    "preview": "live-server dist --port=8080 --no-browser"
+    "preview": "live-server dist --port=8080 --no-browser",
+    "watch:build": "nodemon --watch scss --watch js --ext scss,js --exec \"npm run build && cp -r dist/* ./\"",
+    "serve": "python3 -m http.server 8080"
   },
   "repository": {
     "type": "git",
@@ -36,11 +38,12 @@
     "html-webpack-plugin": "^5.6.3",
     "live-server": "^1.2.2",
     "mini-css-extract-plugin": "^2.9.2",
+    "nodemon": "^3.1.10",
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-dev-server": "^4.15.1"
   }
 }

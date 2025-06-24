@@ -1,29 +1,30 @@
 // Section Components
 
-// Base Section Component
+// Component Mixins
+@mixin section-component {
+  border: 2px dashed $color-accent;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// Apply consistent margins to all sections
 .section-component {
-  @include section-component;
-  max-width: $container-max-width;
-  
-  // Component Variations
-  &--no-border {
-    border: none;
-  }
-  
-  &--accent {
-    background-color: $color-surface-tint;
-  }
-  
-  &--dark {
-    background-color: $color-text-primary;
-    color: $color-white;
-  }
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent !important;
+}
+
+// Add 16px margin between sections
+.section-component + .section-component {
+  margin-top: $spacing-md !important;
 }
 
 // Main content constraints
-main {
-  min-width: 0; // Prevent flex child from overflowing
-}
+
 
 // Cases Component
 .cases {
@@ -53,7 +54,6 @@ main {
     gap: $spacing-lg;
     padding: $spacing-xl;
     border: 2px dashed $color-accent;
-    background-color: $color-white;
     margin-left: -$spacing-xl;
   }
   
@@ -63,7 +63,7 @@ main {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: $spacing-md;
+    gap: $spacing-sm;
   }
 }
 
@@ -87,7 +87,7 @@ main {
   &__column {
     display: flex;
     flex-direction: column;
-    gap: $spacing-lg;
+    gap: $spacing-md;
   }
   
   &__list {
@@ -133,7 +133,7 @@ main {
   &__visual {
     width: 100%;
     overflow: hidden;
-    border-radius: 8px;
+    
     
     img {
       width: 100%;
@@ -183,7 +183,7 @@ main {
 .experience {
   display: flex;
   flex-direction: column;
-  gap: $spacing-2xl;
+  gap: $spacing-xl;
   
   &__header {
     display: flex;
@@ -223,20 +223,6 @@ main {
   }
 }
 
-// Utility Classes for Components
-.component-label {
-  position: absolute;
-  top: $spacing-sm;
-  right: $spacing-sm;
-  background-color: $color-accent;
-  color: $color-white;
-  padding: $spacing-xs $spacing-sm + $spacing-xs;
-  border-radius: 4px;
-  font-size: $label-medium-size;
-  font-weight: $font-semibold;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
 
 // List Items with Bullets
 .list-bullet-item {

@@ -107,6 +107,11 @@
     h1 {
       margin-bottom: $spacing-md;
     }
+    
+    h2 {
+      @include display-medium;
+      margin-bottom: $spacing-md;
+    }
   }
   
   &__nav {
