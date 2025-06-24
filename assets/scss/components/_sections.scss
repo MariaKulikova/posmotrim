@@ -187,37 +187,16 @@ main {
     gap: $spacing-md;
   }
   
-  &__gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: $spacing-lg;
+  &__carousel {
+    margin: 0 (-$spacing-xl);
+    
+    @include media-max($breakpoint-md) {
+      margin: 0 (-$spacing-lg);
+    }
     
     @include media-max($breakpoint-sm) {
-      grid-template-columns: 1fr;
+      margin: 0 (-$spacing-md);
     }
-  }
-  
-  &__item {
-    position: relative;
-    background-color: $color-gray-100;
-    border-radius: 8px;
-    overflow: hidden;
-    height: 300px;
-    
-    &:hover &-overlay {
-      transform: translateY(0);
-    }
-  }
-  
-  &__item-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: $color-white;
-    padding: $spacing-lg;
-    transform: translateY(100%);
-    @include transition(transform);
   }
 }
 
