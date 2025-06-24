@@ -136,3 +136,22 @@
     }
   }
 }
+
+@include media-max($breakpoint-sm) {
+  .first-screen__container {
+    height: 400px;
+  }
+  
+  .comparison-slider {
+    &__labels {
+      top: $spacing-sm;
+      left: $spacing-sm;
+      right: $spacing-sm;
+    }
+    
+    &__label {
+      font-size: $label-small-size;
+      padding: $spacing-xs $spacing-sm;
+    }
+  }
+}

@@ -151,7 +151,7 @@ main {
     gap: $spacing-2xl;
     align-items: start;
     
-    @include media-max($breakpoint-lg) {
+    @include media-max($breakpoint-md) {
       grid-template-columns: 1fr;
       gap: $spacing-xl;
     }
@@ -167,6 +167,11 @@ main {
     padding: $spacing-xl;
     border: 2px dashed $color-accent;
     margin-right: -$spacing-xl;
+    
+    @include media-max($breakpoint-md) {
+      margin-right: 0;
+      padding: $spacing-lg;
+    }
   }
 }
 
@@ -186,6 +191,10 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: $spacing-lg;
+    
+    @include media-max($breakpoint-sm) {
+      grid-template-columns: 1fr;
+    }
   }
   
   &__item {

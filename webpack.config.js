@@ -60,12 +60,7 @@ module.exports = (env, argv) => {
           test: /\.html$/,
           loader: 'html-loader',
           options: {
-            sources: {
-              list: [
-                { tag: 'img', attribute: 'src', type: 'src' },
-                { tag: 'link', attribute: 'href', type: 'src' }
-              ]
-            }
+            sources: false
           }
         },
         {
@@ -89,14 +84,17 @@ module.exports = (env, argv) => {
       new CleanWebpackPlugin(),
       
       new HtmlWebpackPlugin({
-        template: './index.html',
+        template: './src/index.html',
         filename: 'index.html',
-        publicPath: './',
+        inject: true,
         minify: isProduction ? {
           removeComments: true,
           collapseWhitespace: true,
           removeAttributeQuotes: false
-        } : false
+        } : false,
+        templateParameters: {
+          PUBLIC_URL: ''
+        }
       }),
       
       new MiniCssExtractPlugin({

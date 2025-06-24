@@ -103,18 +103,38 @@
   @include display-large;
   font-weight: 900;
   color: $color-text-primary;
+  
+  @include media-max($breakpoint-md) {
+    font-size: $display-medium-size;
+    line-height: $display-medium-line-height;
+  }
+  
+  @include media-max($breakpoint-sm) {
+    font-size: $display-small-size;
+    line-height: $display-small-line-height;
+  }
 }
 
 .heading-lg {
   @include headline-large;
   font-weight: 900;
   color: $color-text-primary;
+  
+  @include media-max($breakpoint-sm) {
+    font-size: $headline-medium-size;
+    line-height: $headline-medium-line-height;
+  }
 }
 
 .heading-md {
   @include headline-medium;
   font-weight: 900;
   color: $color-text-primary;
+  
+  @include media-max($breakpoint-sm) {
+    font-size: $headline-small-size;
+    line-height: $headline-small-line-height;
+  }
 }
 
 .text-body {

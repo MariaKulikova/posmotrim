@@ -28,6 +28,7 @@ body {
   background-color: $color-background;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,9 +75,19 @@ button {
 .main-content {
   flex: 1;
   width: 100%;
+  padding: $spacing-md;
+  
+  @include media-min($breakpoint-md) {
+    padding: $spacing-lg;
+  }
   
   @include media-min($breakpoint-lg) {
     margin-right: $sidebar-width;
+    padding: $spacing-xl;
+  }
+  
+  @include media-min($breakpoint-xl) {
+    margin-right: min($sidebar-width, calc(100vw / 3));
   }
 }
 
@@ -87,6 +98,7 @@ button {
 @import 'components/sections';
 @import 'components/before-after';
 @import 'components/sidebar';
+@import 'components/mobile-navbar';
 
 // 5. Pages
 @import 'pages/home';
