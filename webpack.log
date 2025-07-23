@@ -1,0 +1,21 @@
+
+> setify@1.0.0 dev
+> webpack serve --mode development
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.0.228:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/Users/tinky-winky/projects/setify/dist' directory
+/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:94
+  const stop = fsevents.watch(path, callback);
+                        ^
+
+TypeError: fsevents.watch is not a function
+    at createFSEventsInstance (/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:94:25)
+    at setFSEventsListener (/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:150:16)
+    at FsEventsHandler._watchWithFsEvents (/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:353:18)
+    at FsEventsHandler.initWatch (/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:429:23)
+    at FsEventsHandler._addToFsEvents (/Users/tinky-winky/projects/setify/node_modules/webpack-dev-server/node_modules/chokidar/lib/fsevents-handler.js:518:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+Node.js v22.10.0

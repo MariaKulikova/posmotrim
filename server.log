@@ -1,0 +1,789 @@
+
+> setify@1.0.0 serve
+> python3 -m http.server 8080
+
+::1 - - [24/Jun/2025 16:56:10] "HEAD / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 16:56:13] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:56:13] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:10] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:57:16] code 404, message File not found
+::1 - - [24/Jun/2025 16:57:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 16:58:24] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:24] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:58:37] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:25] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:25] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:26] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:27] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:52] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:52] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 16:59:52] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:52] "HEAD / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:00:57] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:00:57] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:01:59] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:02:05] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:02:22] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:02:35] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:02:37] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:02:42] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.9ebc9e41b08889bbe951.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:02:42] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:03:21] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:06:06] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:05] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:27] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:15:45] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:16:10] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:07] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:11] code 404, message File not found
+::1 - - [24/Jun/2025 17:17:11] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:17:16] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:16] code 404, message File not found
+::1 - - [24/Jun/2025 17:17:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:17:56] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] code 404, message File not found
+::1 - - [24/Jun/2025 17:17:57] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:17:57] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:17:57] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:18:16] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:18:16] code 404, message File not found
+::1 - - [24/Jun/2025 17:18:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:18:16] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:18:47] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:18:47] code 404, message File not found
+::1 - - [24/Jun/2025 17:18:47] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:18:47] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:18:52] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] code 404, message File not found
+::1 - - [24/Jun/2025 17:18:52] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.9ebc9e41b08889bbe951.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:18:52] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:19:32] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:19:33] code 404, message File not found
+::1 - - [24/Jun/2025 17:19:33] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:20:01] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:20:01] code 404, message File not found
+::1 - - [24/Jun/2025 17:20:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:21:30] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] code 404, message File not found
+::1 - - [24/Jun/2025 17:21:31] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:21:31] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:21:31] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:22:53] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:22:53] code 404, message File not found
+::1 - - [24/Jun/2025 17:22:53] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:22:53] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:22:53] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:22:53] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:22:53] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] code 404, message File not found
+::1 - - [24/Jun/2025 17:24:26] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:24:26] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:26] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:58] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:24:58] code 404, message File not found
+::1 - - [24/Jun/2025 17:24:58] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:25:41] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:25:41] code 404, message File not found
+::1 - - [24/Jun/2025 17:25:41] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:26:14] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:26:14] code 404, message File not found
+::1 - - [24/Jun/2025 17:26:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:26:14] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:28:05] code 404, message File not found
+::1 - - [24/Jun/2025 17:28:05] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:28:05] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:28:05] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:17] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:17] code 404, message File not found
+::1 - - [24/Jun/2025 17:31:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:31:17] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:17] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:30] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:31] code 404, message File not found
+::1 - - [24/Jun/2025 17:31:31] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [24/Jun/2025 17:31:31] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:51] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:51] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:51] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:31:51] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:32:00] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:00] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:01] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:32:29] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:04] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:33:25] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:26] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:26] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:38] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:34:43] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:34:43] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:11] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:35:22] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:32] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /css/main.1ae73bd437c4358b7216.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:32] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:32] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:32] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 17:36:37] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /css/main.1ae73bd437c4358b7216.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 17:36:37] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.9ebc9e41b08889bbe951.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.1ae73bd437c4358b7216.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:22:08] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:23:00] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:23:00] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:26:06] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:26:06] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:26:06] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:28:03] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:28:03] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:28:03] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:28:03] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:30:35] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:30:35] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:30:35] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:30:35] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.1ae73bd437c4358b7216.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:16] "GET /images/Favicon.svg HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:51:21] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:53:39] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:39] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:53:40] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:55:44] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jun/2025 22:57:43] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:43] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 22:57:44] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:07] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:07] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:07] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:00:26] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:01:37] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:01:37] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:02:08] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:02:32] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:12] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:04:14] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:08:48] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:12:01] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET / HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Logo.svg HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Before-after/Before.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Before-after/After.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Projects/08.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Process/Process.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Projects/Errors.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Projects/rootsy%201.png HTTP/1.1" 304 -
+::1 - - [24/Jun/2025 23:13:38] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:15:04] code 400, message Bad request version ('¥æ^4\\x00°çK')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:15:04] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03W\x09}Ô!òmF\x8f\x96\x87Z?#\x09£ðÃ|)dõà¬÷Åw~ÊÜä× \x81\x12b\x1bLÐ¬ ò²ôq¥\x963\x00Ô\x1fqé\x93R\x1d\x17Ï]C^¯EB\x94\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01\x06\x00 \x07\x01Adû[Ç{DÚ,BnB\x96"4\x8a¬ü\x19IPNòKÙ\x1d¥æ^4\x00°çK" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:15:04] code 400, message Bad request version ('\\x00\\x12\\x00\\x10\\x04\\x03\\x08\\x04\\x04\\x01\\x05\\x03\\x08\\x05\\x05\\x01\\x08\\x06\\x06\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:15:04] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03æ\x18Ñ\x81\x80DÇå.Ï%\x08O\x85qþ\x8c\x93\x12\x0d#OÍ=\x8by\x8b\x16d³ìo ¯\x82C-¼á¤?\x82\x1fDù­P{ÛÐÕëÚ;éÅÝ\x1bB¾\x92Î2Ãß\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x17\x00\x00\x00+\x00\x07\x06::\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2þ\x0d\x00ú\x00\x00\x01\x00\x01O\x00 +*ï×ûÓÕ©Û\x1f¢\x17\x08Q[\x9eÓ\x09\x8c\x0b\x19õ {«á£.\x14<°c\x00Ðe¼â//«o9%\x0e!\x19\x17¹3<\x81H¢0ÍfW\x9a\x07|"Ü\x14ô«Ö¼.í\x0büË@\x03Ì=\x07¨Ò\x85øP»N9»²ÊI\x13­ï*3¥\x11SIÏ\x88\x06þ59ù\x81\x9e)\x9b±\x0d\x00+\x88\x066\x9b÷8xN¤M(\x16>\x83\x11ÛZ¹r7H¾óp¡`\x7f\x19\x97Â\x16^ç²{\x05ðW~Vè\x9aÂr/Ñ:¯ù\x98O®\x0bw­ë\x0f\x11+\x07õkN\x0bm\x9aè?Fáy§êõ³Z\x1d8:tk\x15º\x11\x1b\x0c\x0d\x04m\x9eÒ\x1d\x9b­k\\\x0b\x0d5\x08Hí±K\x92W\x8e\x0cºE\x9a1TRTDZ Ýf»\x01ËB\x19bK\x11\x03\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request version ('dCaÒ½\\x95`[b=VwÑ¡Îøq$\\x96áÉ\\x93b¹Â')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x1e%U\x8ejS&ï0@¥ysÜÚ.\x0ec\x14;aÔæ²üüðù\x0c\x0dcH \x1e\x96¯üDßûU¡\x87\x8eE\x87Êü¥«ÎCáin\x06èV2p\x02~@úb\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sêê\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01p\x00 dCaÒ½\x95`[b=VwÑ¡Îøq$\x96áÉ\x93b¹Â" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x07\\x00\\x01\\x00\\x06ü\\x03\\x03O\\x8b\\x93Í')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03O\x8b\x93Í" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request version ('³Î@![\\x05·oý\\x81\\x92\\x80¥l%d§Za\\x9aÌ')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¢¯´\x0fâ('»¤¶gÈÃLÆ\x19_Ô6\x8bð¬=nV\x17P×ér\x9f\x84 \x9bðò\x93h\x0f8Ìê7Vu§á©\x81ð~\x84&¢ã7¸û\x13\x81~Àrjy\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x003\x04ï\x04íZZ\x00\x01\x00\x11ì\x04ÀOô\\\x8b(²$ö;ðÇ\x05¦¹\x8b\x86wYÔ\x0b^¿ñ+#\x81J¸p¡\x9a\x15·*Vq¶RO0ºc\x9a\x92XPX¹Þá\x97äyÏz(\x852Û*\x8ek\x11[öNâÒg¬\x13Uô¤ÊÐâ\x03\x1d³Î@![\x05·oý\x81\x92\x80¥l%d§Za\x9aÌ" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request version ('!\\x16ÁÇ\\x07Ä\\x9a1Á8\\x089P:ÜJ\\x07\\x02')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03þÉ\x0f\x052\x94å/S\x80ÿ=\x95\x16\x0bÿ\x90\x8b^\x0fuö²dð8&\x98\x03½a* \x80Ïtr\x8bX\x0f\x1d#Õm\x81\x9e\x09Mü¯'úb\x83·µ¹-åëFà²ðl\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sjj\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04íZZ\x00\x01\x00\x11ì\x04À?\x10\x9dà\\¡ìR$!\x85rÌ\x97-"f¿Æ\x8cc§èU\x81¹]Û\x98\x11(\x03\x81îD\x18`Ù©ð¸g\x8a;r\x88¨Æ\x11@dgÕ"_\x06<¦,Åjs³\x06¸*ËcÍW#\x0d\x8f\x88Í\x176\x9f½µ)Q\x13mù\x92\x96?±\x9e\x95Ã\x08Ú< ³´S\x91ø\x1f\x9c#>ËzÌ \x17 \x91¨\\J2\x84ÅÚ\x06ßâ?º)\x98\x99ö\x8c\x94aÃK³\x170¹¼^h\x9cþaHþ9<\x09\x00Ës\x93\x0bÜ\x1a\x00h¥1\x8bÌ$\x01<Ç\x98"¤tÔ\x93\x8d\x8b·¹SyXÛ£S*z*Û­941Wú³!\x89\x91Áð'\x0b\x16\x84\x16uaýc³\x87»!w+¾»|F\x03S//Uu¿±\x95öÇ\x1cjP«_\x1c§\x95\x07£\x92\x8bÉFã¤ü\x04ÈÓÂt5¸H\x83\x10\x8bíõ3h±\x9a\x11é\x9aªf`\x05ÔªÉEh>\x870¥%\x167â¤¾\x18\x03ã\x0bÍ\x10U4\x8b!\x8b\x95;³ShL2ò\x1d!6\x1bZKPIavÿh ¦\x88*\x86%\x9e¸\x9a\x88Ûøo_Ê4õ¢}ð%B\x11æ\x18Gd,ÖGd]PL\x1bU0C«&\x94*$8\x95nk9¼ J¬*úiÝ\x19\x17\x07Â¹\x91r½\x1a\x99gÊÙ%®\x12«Jº:lD#ûU0ÆùÂÈ)z0d¼¡¡\x8e\x07d#3ô@+\x05\x03c¢\x9a½ÉegR~ßF\x95ûEV»\x96Îzé\x7füÙnÝ\x99Ë\x15àF\x83"\x14¯É6\x00=:5´!Ä\x83\x99l»6\x14X\x0c6±-\x7fI\x1eZ×\x81úIO\x9e+Äà4¦÷ábº \x8bá·\x18\x89ªG \x08©*P¨âÔc\x90\x17\x03ª\x84I\x07\x07\x08@9Å­Gv»¤¢þ°\x05\x8dác\x91\x06\x8aKT¡P²\x0c\x13ô\x992+Q}¸\x9d\x8b#0å,1A4\x15ä£¡\x94áVÖWqÏÒl<`%á1:\x1f8\x99ÓÒ\x17Î«ªQÇ$Wì¡¨$\x96Uc/©Q2K|³\x84a¼o\x97d\x17p¢¨úy£×->aD\x1dÁ\x1b×Hy¯g[×FNÑâ\x7f\x15\x8a\x1a\x12`QÛvÌúp»wÇA\x1e!\x16ÁÇ\x07Ä\x9a1Á8\x089P:ÜJ\x07\x02" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request version (':`\\x04Ìj\\x1bQîÔÖm\\x04]îtQõ\\x003\\x04ï\\x04í\\x8a\\x8a\\x00\\x01\\x00\\x11ì\\x04ÀñÉsËù]Òó0pu¦')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x8cTLÁ©x\x058Gf³(\x7fY[§»9\x15ZS\x0b\x9fÊ"¼\x0bM\x82¸æ® ð¹H8Ó\x14Èä2\x11þ\x01XJ6\x89\x9e£ÀÙ\x08}Y3,~¡O\x89<\x0ft\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063::\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03þ\x0d\x00º\x00\x00\x01\x00\x01©\x00 oª+yh6Î},o\x1a\x1dØÓ3ø¶ä\x14`©U 6·¤I\x1c/-\x96L\x00\x902=dÄ÷y]\x18\x95\x10\x03\x10¶:ð\x07{JD\x09\x83$\x90\x8b\x9f*$«\x08?\x8bt½\x18\x83\x9dl±\x80?OM\x9a\x9a[\x9f°/ÊL\x8cè/\x9aTü\x93³¾¾p\x94~\x1eíIçh-|5\x9a}ÁO\x8ak#Iõ°8Á^\x01}K1\x97¨\x16©ç?Y¾¿5Åå-\x1b\x03Å¿gW\x17[\\ùÊ\x99Ãy\x95!Í\x1aéúwç¯\x8eJ :`\x04Ìj\x1bQîÔÖm\x04]îtQõ\x003\x04ï\x04í\x8a\x8a\x00\x01\x00\x11ì\x04ÀñÉsËù]Òó0pu¦" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] code 400, message Bad request version ('®{ú¶_,z\\x0e@)\\x8c\\x88\\x8cKè0Ñ\\x99!),ÄNêsÆS\\x83\\x03[\\x8f\\x02:´\\x8eé°Mäh\\x92\\x00Æ\\x86äRp\\x04W¾{\\x18~ú')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:25:14] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03PC\x8aË\x02Ü\x04\x9cª*Ñ&¬S\x9dl\x92\x89\x17\x90 w\x8f°(À\x1f-J\x18\x1c/ §\x94q\x14I£îL\x8c®...[¡I\x90\x1dÿÎ\x1esí+\x88+\x86a BIÉ\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93êê\x00\x00\x00#\x00\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x003\x04ï\x04í\x8a\x8a\x00\x01\x00\x11ì\x04ÀÍòÌ\x08#@ª\x80\x9f$\x99v÷ü©`\x194ßY|\x8dX6KÄ­\x14Ú-£©t²#\x9a°\x83B\x99[¾@Ú/¸\x94Ê_e\x8e\x1a\x9a·¿ÖÊÉ\x86¤w¦l"<r$\x18\x82MÖGVù\x16\x0bÓd\x80\x82m0\x13;Ev{Qg\x12|Ç\x91`\x87<³1AHS\x02äÆ\x03¢ºenæÀ\x1fòÎÚö\x01\x8c`¥te¢¿9s,ø\x03t\x03f\\Ð\x9c+ë¶½xµ3#¥w\x11v\x1d±\x06\x06;ÏH\x8bÃ\x9e0\x11%æ¸ªÚ\x9d¹ç\x04|\x84\x9cÐ\x11\x92\x10Ö¾!ój_ÑK¤¤\x9fW+|HI\x1e5\x97)\x13\x9a5\x1c\x14}t,¦.\x96À\x9b§(\x1f\x02µh\x93¯&\x82C"»76ø\x14¼å»ì\x13\x1e\x81ka\x89°\x9eµ©\x9719\x84]ãPWâwt\x01À¹ÖÍ\x1bª\x8a\x01Ä\x92ßð:h\x84Z½;Í\x07µ\x91Më_Z&x\x88p¤y\x07r ÆS\x98öÍs\x09ÃÈ!\\ÎP\x13ÜöM2%\x13\x03¬e{T\x05¨¡\x8e\x15¼n[\x96¡Êòb\x0cjl\x0ew8-\x91ÈÝè¢Q©T\x8f*!¨ñiu*\x99ª´· ú¹\x9dB\x93\x10Ñ­Xg¦«\x06lÛð\x93\x96Ê\x0eÁ1Nl\x91káØm\x9bÚ?J\x15­gÒ5&¼C\x92#^fË\x03\x98ÆE\x97\x819q\x15eMº\x0d\x07h\x0f\x16\x92«ZÛjn²\x86ù ®{ú¶_,z\x0e@)\x8c\x88\x8cKè0Ñ\x99!),ÄNêsÆS\x83\x03[\x8f\x02:´\x8eé°Mäh\x92\x00Æ\x86äRp\x04W¾{\x18~ú" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:14] code 400, message Bad request version (')aH\\x00Õ@')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:14] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03>/®T\x92WJ¿¤Ng\x0dd)Ùqª\x16ò\x1f\x84\x02\x90\x1cº¥]¨\x80\x9ba\x00 è_º\x0cÓaeð^ÖxìÊ\x83¨4\x83,Ïó\x1aÊÿ\x7f<û}¿\x7fíbæ\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íZZ\x00\x01\x00\x11ì\x04Àí %\x9d`uòÐ9s\x96\x07\x11\x08\x89Ô;´MÅ¢È|\x1a\x9e\x11!9`\x80ÓF\x9ept62ÙÈ\x1e\x82\x08©6\x07\x93¡GC\x84µvR\x07\x16ô\x1e5µF\x8d\x07±Î3\x9e\x16Ù\x1e¹ç\x11îË )aH\x00Õ@" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:14] code 400, message Bad request version ('Â\\x8f¸')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:14] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ò;<\x03I\x14\x9f\x8cmòòEw>ÿÂ\x8cz\\ÿ:öFªa\x82?3Ôz\x1e" Â\x8f¸" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] code 400, message Bad request version ('ô´\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x04·ÂM\x9bW1\x1fùH$>ð*1F(ÌòË\x0eè\x05\x9aj]Ê\x9f\x83\x1b\x1d\x84 \x13w6\x98}\x8eÎä¸ º\x97&\x95N\x14æ\x9eÇ\x92\x9f·ÐD!ïÃ\x98N¯ÚR\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00DÍ\x00\x05\x00\x03\x02h2þ\x0d\x00º\x00\x00\x01\x00\x01¬\x00 \x0d\x04\x1f)G³\x85\x86·5\x0df\x7f'jæ<> Ì\x0f9$.)\x9bÜ<õm%\x08\x00\x90Âü§bs³¬±l¡æq¢o,\x9cîc¸ú&=d\x88º?X*ÜÉ¾\x12\x18Ï×J+à¿a\x98y£èÎ\x889°$\x02/\x98\x81\x95ÕÞÙA\x1d±ã\x95¸EåÜ)åÞÉ\x9f@Wxô§\x06uZ1Âú\x93ÔxÓî¦\x84+X0G¯C±\x05NørÝë\x03½\x9e[\x8fîç\x1aw7©u\x899ªXÌ<\x98\x0dô\x1aò\x01\x86÷)Ó#ì­\x16\x1bZ>a\x03Þ²\x0bô´\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] code 400, message Bad request version ('-X$')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03è\x8db\x11E<\x97±©ë9.\x9515\x80s÷ÈP¼\x06QÕÅ\x05\x8cå7¡H) \x91üÐÀ\x97\\XiÅ\x9f4\x84b\x1f\x96G_ä¼=¬'¿Í+J\x01½Â°ö\x19\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ªª\x00\x00ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04À\x8d\x13¢ÍÙTR\x88\x8f{vu\x89:X ¹\x8f å\x9djå\x11Òz'\\×\x8b\x8cc¾\x9eJ´{ëÉoçÉõb\x94\x0cÜUlàÃyq¬ÞÄÅ©å®1gHm¥F\x89@s\x1e\x00\x16nf±3pn¯\x86³©P\x9d#ë»v\x05¹Ê2§Ç|Çø\x09¶e¡ÁRS\x92s\x96$¾xRR3F\x1f±\x82\x09ÔiøÛ\x96í\x97\x90d,"ð¥x\x1fãv\x95Z\x87Nàwe«\x01\x0e<x\x92÷\x15\x15Õ)å\x88bÑÃ\x02\x8e\x80v ØÎ©\x119×º\x8aÌü|Þ\x06o\x99³\x0b[\x81\x9cû,X\x94«'ÕÐ\x8fBx¼`|¬ìV¡T6cµ\x87<N\x05À\x9e\x08`DÖB\x00Õ¶\x7fã\x80¨x¸{\x03oEú4\x06\x90¸vë±Dõ\x90gz\x88§Ù\x81\x99\x08v©Å¹µé\x90TÊ¶l\x16y\x10ÔÆ¬ã@\x9e\x84\x9eö\x02@BÜfeû\x90\x99\x05\x0f6S\x1f6\x1a?aô\x9aeU+Ã\x809I;Å½\x80\x14¶åL¨\x07:¬«Q.J_³\x1ctmô\x14ø#ÍRe_MÅOÙùÅxYW\x81¸²\x85\x9a\x1bw\x04·\x1bêiÞå\x1a¸û±]±\x8d´ÊÇ!H}± \x94\\YÂ}vºÌeh]2UîK:Y\x91eË»Sh62jSi¾\x01¶\x82Ú"?\x97SÊ\x04\x02y©Àðë\x16oLÃPb¬»\x83\x11_1¬\x9b\x9c\x8eÐ0\x1d\x9e©\x9dÏX»\x00\x19\x14\x82F\x15\x16²\x0f\x95÷8\x0e¶:÷©\x88\x98\x81p¯ Ç+È\x15²I"ñ\x1a¿mÀ¥LeL\x0fÌ\x83[\x13\x8b<Ó­î\x96q¶ê2µ\x81Zp\x069z¥,ÿ\x8c[b"\x90a\x19I\x83\x9bÈ8pRKsÄ\x12è°pö©(\x02ª\x19\x03*W\x81®VÐ¸ÖQ´£aÅ\x828bÔ%CØë¨Ç\x99OÄ¥\x9b-B)&7¾\x0cJ+5\\\x7fÖèÎ¶ÚV ôÉN\x92\x94\x97éÃ6Ê;8\x9c¦\\t0Ý¤Ã81³\x96dtó²?Â|:Þ!\x08Q rµ{H\x04§\x0eU[-\x85ÔB´\x8aXN¡\x1cf\x87¦\x11\x81¡×V\\\x1e"V\x0c«7\x0c\x0cN¤êÆLÇg\x8ftÌsl\x9c:Õ«Kt Iy¢ ª$Ã*[ö%²ø\x95}K\x8bS \x923ÄóZ\x11\x10\x94\x0dõ\x96äìnÜÅÂáR¥\x8aK\x9aJð\x92æ*ÉÆÐYÀ\x9cÇ\x98\x83¢\x88Ù7KX³ÏD§\x16@À÷\\AçbEFòa\x0bû\x9fª©S\x92\x05\x14\x0c`ÏÂd?\x179yt§É±Ð\x9bX3\x96 j\x8eå8Ãóì'ÀÙÈtÐ\x0cKö!v'lpV)CØÈ5+\x1b\x0e\x8a\x8dRq)=²»â\x80\x95éJ\x91.i7\x04%\x1d \x0c\x8a\x8fK\x9eÖà\x1a!\x87Å8ç+\x8e\x10§\x10À\x8b¥\x88tÞ\x91'\x1eÊ"\x8aÆ\x01]0\x05$q\x9cíÀ:,1³ÒÒ\x16Ov\x97¬\x8b\x12µIW0B6\x05AºæÑ¥8'H}ª#sc¬\x1b: Ou2\x1bæO<Éz\x055§W\x03?ê\x92Ej\x91+\x80á\x892\x92*\x02w\x97\x80©\x94È\x91«Ð¨T\x80öl¼±Võ\x0b-X$ " 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] code 400, message Bad request version ('dÚ¶¸ð')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x83úvIu¼\x9dHc\x12û9\x8dæÀ5\x86\x1a\x82¼Ôº8 !\x1e"\x0fï\x9cÙÿ Ò×¹\x8eg¡\x8f^\x1föiI\x17\x85ÎðcN\x0bW¢\\>\x94\x92\x12\x9dJý®ÍR\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00\x00\x17\x00\x00\x003\x04ï\x04íjj\x00\x01\x00\x11ì\x04À\x90:\x09ÜÈ¿<\x00\x82mq®ÁûpÒBz|\x19®cK¤kV½6ªX\x0d\x00\x8d:\x9c°\x81é\x81õ¹\x08\x99;\x9a®Æ,Z¡R+\x16,êè°!Æ©X\x08ª\x08<\x0bdÚ¶¸ð" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] code 400, message Bad request version ('(\\x8e\\x03¬\\x908[RÏwìL\\x8dX\\x83¦\\x97÷·\\x96ÄgÎè5')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:35:15] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¦ú\x83\x08Ûì\x0b\x11Äz»+\x8dTû`p\x1c\x1b\x81\x07\x10t«KëækÝ\x17|, è~~»¡!_\x11Zz¨\x87}¹\x8c%]þí\x9bÊfu\x83ù\x08&H\x02Ö¢Ï\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x9a\x9a\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x12\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04À\x90È\x894º¶\x8bJ\x09ÔQ\x06êt%\x1b6µ°Ò·»\x03\x9f] \x84\x85³L7å±ÉC.b¶GÿÙ8h[\x8d~F\x03=t¾2µ\x0fÁ5sZ\x97£Ül\x7fÀúH\x92´\x10\x12\x11^Æ!||Ë\x88¸HÂ\x04\x88¼oê\x11{\x90R[â¶%ò\x80÷w\x85ÜÛX\x16,¤\x18óJf¸F3j¿Iðgu)Ê:\x8a\x9f\x9a¸:¤#9«:cQ³¾\x16\x8a\x11û5$&vv~¨`ç\x06\x15³©u\x0fÉÉì\x99]\x00¦Ì\x8eÌx´S\x0c¥Å\x1e\x09zh*Á\x0cÕ¢Yz{\x8eiÈ\x90(\x82+ÇÄÈ]3K¬É¿\x02\x096¢\x17\x00¦%iÞLL õu\x8b$c\x19*eÊ\x12\x1akvj°Ð\x97¨\x9a\x97jl\x05\\»\x85T©·8\x98\x14Ýó\x1e=\x057îY\x0e\x97\x93\x17ª¥H\x83ö\x9e\x03zy=J­èPN¿\x07\x9bHÚ\x86gÈ\x82\x9c³¼­\x86À\x10eOêåoèQ\x8a\x90\x13V\x99ÑLîê¿\x0dR\x96gøÀ4Å\x83»t\x99\x05@¿ªxh\x80ø\x8d5\x80¿SU"¬dOµ,\x17mê\x8a¦»\x98ê£-5V\x19\x1a\x89®\x0eÇ:\x9dÒ(\x95aOiÒ\x8b¥ \x09iÂ\x88V\x88\x90+«\x02'Q\x02±7\x8aêô_Æ«¯[ È\x1f¸\x82ç¡yi4\x18e\x09\x8f\x01ºÀ|+\x1c\x9aÀÇ8\x02oF9(\x99\x9c\x0e\x1c´\x87È'©Âö\x1d%\x16­Ó6v>ÂO\x1bðQ\x01©¥Ð\x89\x00l\x16«¾ÚH\x92\x17s\x9f5wÎºz*\x83\x06HØ¤UU\x98ÃG³\x1c£hÛËH(\x11\x9bÃÖ\x8b¹ìb\x07\x1c§ì\x89\x92\x80Ú\x7fÞ×c\x8d&\x81µw\x16üÄ\x98\x91öÉÆ\x14e\x01\x816\x8fòpåà\x9f&\x80|\x8aãÇ¡ü\x01k\x93=¬F$30\\OD¯dø\x8b\x873§6è\x9cM\x88\x08i&\x0e\x94Ã.¬°g\x89*|$LÁ9\x94ÂJsPàÙ\x80¥¬3°K\x7f\x0b\x82\x10­&)q×¢Vöu:ºÎ\x9e{\x03÷Ø¼Þ8\x0d\x07 E±ñA)yµçë(\x8a\x91®¨\x8atªÁR\x8cõ½È4\x91qÑOáü¼L\x82ÀÇë(ä\x02À´ÐU\x07G2I 7uðsó\x90-\x86\x1bk|²_Ð\x82z*Co\x07â\x96,B'æÂ©z\x16^¹ÔeâÊKñS\x82ÔÊ<G\x02*ÚJ¿\x87¦\x1fÙ\x97À¬1P²\x98\x8b³%~\x991\x01ù©sX\x9cYÎ20áÁ\x06q\x951Ö4\x9c\x97\x89Á\x12Ì%F£\x15*\x82\x0eGÁ\x18{|\x90¤ \x87Yò\x0dÅ+ªÒ»²ï\x87EOÂN\x9c5Eç\x02K\x92\x8a©¡ØÊÌ\x86IM\x05I\x01ò\x06k$\x12¸â«iS\x1e\x07\x00\x94¦`\x1d_±W\x98DdO4S\x1ayl^\x03nU\x87:V¡µµº"\x88ë \x08¢\x12õ"aÞ³´\x1b\x98{\x10º´]äµ\x0e\x06³\x89|_W)Éçã~Í\x14QYg>¼\x94Å\x85Ù3?5l¯CT®ËuY{\x8b\x07Ë-o¨\x9fË´ÍµºyØæ\x8d\x863{EEz8\x83b\x10\x1c\x84\x81\x1aWi\x1c2+\x802ù\x88¨Õxr%0\x09ü*W\x87°r»\x9aWeÈ§à{\x9b(©r·r_q\x83\x0b\x94æ¾\x00»~\x9cà\x05>©\x0c³\x97t\x85q Ì¬\x9fì\x08\x1d5,JXA\x1bÛ,c\x9d\x986\x02E*\x86G\x08Ù\x82\x1eBÑÊp#'t|z÷ \x09QÑ\x82 z\x1aµÖ\x94Z¤\x86Ñf·wi\x95{\x05°4\x05z>yeïZ\x99&\x07\x022Ò!ÅL\x98>\x0c\x01\x9e¸\x1bö{\x87µ§¥æ#¥\x00ø-ÑÛ@6S¬\x0bëN\x96\x04\x11ù\x09ÎÂ§\x8bØÌ}HL}\x93Y\x9aÂºµ{¨3\x10ø\x01¾ø\x8d½3\x88¹\x16\\\x8e\x82H\x8fã±õ\x86\\\x1f[*|Q\x89nçw@3Aò(vp\x99[Ãá¦SG{\x974K¾ \x06Ðâô/­öu\x0c§\x8c,\x9cf\x8bÊB\x85|\x96\x18aÐ²v\x02\x86¾K\x1a£»\x19½klí\x04@ô\x86\x9dôs\x87\x97v¤°&\x00\x1d\x00 µLÙ\x14\x9b\x83\x13\x92¯*Çûw\x8bóze*\x89f\x0fþCB¬i¬\x19q\x15\x87\x12\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01-\x00 ¹\x0c(\x8e\x03¬\x908[RÏwìL\x8dX\x83¦\x97÷·\x96ÄgÎè5" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1ÿ\\x01\\x00\\x01\\x00\\x00+\\x00\\x07\\x06\\x8a\\x8a\\x03\\x04\\x03\\x03\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x10\x81P#>\x1b¬ã\x18\x13d+XbÒÚ0<ë`ï'lJ±1\x1b\x05Å÷{s $ô}àÒX\x9fyO$H°!Ê«`¢\x8cUôÿô©ÓyË\x13^Yè;\x1c\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93::\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request version ('oõ,\\x8a\\x9d÷\\x9bB#ïú\\x8c\\x83ÙØÿa.)éÕ\\x9f\\x93Ó\\x88\\xadn\\x8f£9\\x14v')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03|\x10\x88Ñ¿~NÂ¸g\x93,C\x0cbj\x81\x18?øÈ\x0evSùe«\x00RÜ\x029 \x8cÅE\x9dhS\x06\x8f.\x0fóEcÖU\x09"Àõ³ýJ7\x8a=Wì_N\x9f\x0dY\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sªª\x00\x00\x00+\x00\x07\x06êê\x03\x04\x03\x03\x00\x17\x00\x00\x00#\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01þ\x0d\x00Ú\x00\x00\x01\x00\x019\x00 Ô)\x1eYb0Ä\x1a×2îl\x9cO5nnpì_8æÁâºý~iÇe@w\x00°éÞÛZéÊk\x86\x1doõ,\x8a\x9d÷\x9bB#ïú\x8c\x83ÙØÿa.)éÕ\x9f\x93Ó\x88­n\x8f£9\x14v" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request version ('Ùe|h1Y¡±ul`HÆ\\x9cDy6qtå')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x10±r\x1d\x9d\x94®î¦\x86\x8bÖD\x8bV5Èm\x17\x7fz'Ùü³â\x9b\x06\x15J\x0e1 \x0dF/5¸\x98aÎºØ@ÿÊ-²s\x09H7ö\x1b¤D\x09<bµ8õ#\x1d¯\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063::\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x17\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04À±\x92px\x1bµ\x00úÄ\x0d\x09\x00Ï"¿\x83¸\x9fi£­ã&q.6\x16³øÉºP Ùe|h1Y¡±ul`HÆ\x9cDy6qtå" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request version ('úú\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06súú\\x00\\x00\\x003\\x04ï\\x04í')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03®\x0c¡ìí F£\x89¿½Ó\x92ò±\x18\x95\x07r ç<ß\x92q\x1cpï­rªb '\x13\x8d8Ëø\x94\x8d\x15\x86¨\x81Ó=\x09¢#ýÑ§º;Î01\x1e,mÐÕx\x9d\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06súú\x00\x00\x003\x04ï\x04í" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request version ('ap¼S\\x00+\\x00\\x07\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03®m0XÜø\x0bgp½k\x92óp!9ï{\x82Â\x91Å(\x8fÿÕãWíF \x14 gñ®ÈP°Uc*3\x00\x85\x83ùEÊ£\x00¶bø\x84X\x05\x17¿ÔNåh\x17q\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01Î\x00 >c\x82©f\x80+û.Ï=\x83ºz¥~é\x90J¯\x9a\x8c\x97éýÃxg\x0c¢*s\x00Ð\x7fS\x8bç£¡\x8b|~fs©\x02ªI\x0bP¼A¹_\x9c­ôV(\x1fÎQ¼X\x00Â1ò\x9f\x0dÎ\x04º\x13\x0e-¥£B\x0brj<{\x89\x06­\x7f\x14Î\x12ÉüKAÃ5¤öæ$O¥ºP£K\x94¤¶{o\x0d¹\x96\x87/Ûª\x884Øed\x9fZ\x00=¶a¡`#øwp\x9cÇf¿¹PÖÞ®\x876ì³9(Öv7»õ.}V´ÞÉ¶\x0b\x03¦Ø²\x8a\x98¹\x1cÕÿÿ\x0d\x88Í±yí¨àBÛ,×\x81O@\x9fQõþV]bã\x91\x99AÛ\x13ÖJ\x9bÚu²Ï¾)\x9fá,ÍÞkhù\x8aÿòßP\x91P\x1d;÷\x13,\x8e{\x03ý\x09ap¼S\x00+\x00\x07\x06" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x06À\\x01\\x00\\x06¼\\x03\\x03u|Î')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03u|Î" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ('ßVB\\x066W¼\\x80WM')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ê\x02\x7fÕK«Åîèxsìw<d\x1dj<\x92\x83|F\x8c)Üp\x90üë\x87\x16R d$\x8dþô\x7f\x93ëÃ\x17|rà\x01©óü­7®º\x84ORsV,\x7f>¾W¥\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04ÀAg\x95Þâ\x7fÔºmGLoàU_|$\\S\x9c l5\x02GËNÉ'A¨!|e\x94´\x11Ú"Vy[oj\\å¬p2ê\x1fßVB\x066W¼\x80WM" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ('Ud\\xad¹e\\x9a\\x80O£«')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x14\x80^Ê*\x80#\x99\x9aP\x81½vtÇçâÐùµß\x9a`,Ém¨\x060ÅÕõ YX>±Ñ\x03ÊÁl½^Ð6È\x94qH\x85!\x0bþ³ÃNQÑa\x89\x16\x0bN\x04\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sjj\x00\x00\x00\x1b\x00\x03\x02\x00\x02DÍ\x00\x05\x00\x03\x02h2þ\x0d\x00Ú\x00\x00\x01\x00\x01Á\x00 ä\x13÷¹Bªþ\x91nnE\x0fÍ\x9d\x86`\x06\x96\x1fUd­¹e\x9a\x80O£«" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ('ÊÊ\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06\\x93ZZ\\x00\\x00\\x00\\x17\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¸\x9cjFÅ\x15V^e»¸øñ!¨Õ½ó\x99y\x90m~I\x9aëÒ¼\x9cÙ\x9f· Åé\x0eòó\x86\x01z4\x0fÑÜYº@\x03î\x14\x963Â(YÝÍEÊZè´ 6\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ZZ\x00\x00\x00\x17\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ("\\x8eðã'\\x02\\x17qWÃ«ûU´u")
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03°\x8fAªµ±\x1bóÚ­j$\x87¢Ñ\x03\x86ðýBÎÊRõÔ\x17³E\x8eÒ\x18» \x8eðã'\x02\x17qWÃ«ûU´u" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ì¤%\x05\x7f¼8\x86Ì\x17ú³Ëk\x00¤uê÷¤\x08KÞMdB%ââ4aú Þ\x17ìÕ¯[:Ú\x80p\x0e\x15\x0eöy}\x14Y¸Î¶ò\x02wÓb\x8e\x81ê$\x0bd\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] code 400, message Bad request version ('ú;ø¡\\x00Mô\\x82vz')
+::ffff:127.0.0.1 - - [25/Jun/2025 12:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ä«\x92ëÄ\x890w¢dà>óÊ\x90¡öÎ\x1e,ÛÉ;b¹s\x9al>\x14bx S\x09pã\x92@5\x16\x1fÂöüm\x8dö±Ò>ö3¢ýOû§Â5\x1b\x13\x85¨\x08\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063zz\x00\x00\x00\x0b\x00\x02\x01\x00þ\x0d\x00º\x00\x00\x01\x00\x01Ü\x00 Å\x02â/3w\x923²Ãw\x12Î|\x8dKý\x9d\x0exY\x8d\x81DÂDWQZÿ¿\x1c\x00\x90>¥\x12qöRÔø¾£ÝyÜóÕ¸D+úÌ\x92è\x99ÊÀ2¼\x0b\x10`\x09ú;ø¡\x00Mô\x82vz" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad request version ('\\x9a\\x9a\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06\\x93\\x1a\\x1a\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03O®áf½54[\x1f\x18¥é[W\x97í\x8b>\x19\x87ºQM\x00\x90\x83á\x8d\x8eR:ì /Ãö\x19>Ü¸4óì63\x8eì<¦ñ/\x0c\x1f|:¤Mz8ÒÞn=TÏ\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad request version ('ªª\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06sJJ\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03H$\x08Ü`åÓÎ\x8f0\x0cÇ\x19Ò\x9fßvë;mk\x87h4õÀKV\x14¾\x1e} ­iA\x9aà ¯Ð\x15Cbø@ï£ðº%\x12P\x07\x8aÝð\x04ta\x95¯q\x1f\x7f\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ÖÊ}\x1d\x83Ó`\x10\x00«°£*\x87\x0f"¥*\x88öâà\x1e?Î>\x07ù\x19ég\x02 Ñ·ü/\x1aH3¦\x10 h\x0b\x00U\x85ì\x94\x19f%©¼8æUäÂ¬\x01=\x86w\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S**\x00\x00\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad request version ('¥')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¦8¶<%\x88\x99/òSL\x1d^Ë1\x8a*S38©} Û]\x9eß\x02â¬N\x03 f\x96Ù\x1dìBÏ\x95¿yyú\x1bÀ~·AÛ\x17Ö}5¦;{¾Ì<qL\x1dø\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04ÀÛ\x0cz~\x01½OÌ{\x9fã®(\x86\x1f¤»½\x91¸\x12¡\x18\x877È\x19\x1e\x17\x9c××i³Â\x8c}\x18,× ¥" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x07\\x00\\x01\\x00\\x06ü\\x03\\x03\\x94\\x038Î\\x84*t{ï\\x93\\x98\\x8fúò(C/xuaf#J\\x19\\x04R-vúØf&')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x94\x038Î\x84*t{ï\x93\x98\x8fúò(C/xuaf#J\x19\x04R-vúØf& Ñ" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] code 400, message Bad request version ('Æ\\x10Á?¶\\x8aêV÷*Ñ\\x86xhîw³è&')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03 0¼`\x88\x05Ü¥õ\x1aßtNôõ\x88\x09\x04æ}\x17Aiý²\x06a?¹öòÈ \x06dÏ\x90\x85Æ\x10Á?¶\x8aêV÷*Ñ\x86xhîw³è&" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x06à\\x01\\x00\\x06Ü\\x03\\x03\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request version ('jj\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06SZZ\\x00\\x00ÿ\\x01\\x00\\x01\\x00\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03áLïõ\x83RÈ\x95Ö\x8aÇÜü+·ØOt$\x90ªn\x8f\x0e)\x99f§½RúU û_\x86£/¨W$O\x16\x8ek©â>®\x09\x81ÊðLù\x97\x1e\x9b\x8a\x95}®\x00Vú\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request version ('f^°³q-2¦ê©D5\\x16\\x87ßÅ\\x9e&£@\\x05"\\x99|F\\x8e\\x99¹\\x04þÊL\\x80\\x97\\x86fÒ\\x91Pò\\x81|ºÍY+Q')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¢â\x0d\x9eÚíY~n\x16\x96\x91\x93ÚØÍ«o|\x86jt\x05w\x03õ=eÛV·ä ÃÞ\x04¦ÁIA÷Á¦×]\x9e\x14\x8fíOÙ\x14ýU?Êÿ\x8f\x93\x1f¬vðeG\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04ÀI\x96Ï\x0d«\x17'÷p\x86F<\x19J¤¤U¥\x95ò\x84Á\x05Aîû`òAo\x13Ü\x9c\x81\x05ÌDü)\x1e¹X\x1b\x82fúdÇÐ8\x9b\x9cü\x170¨X\x0b÷v\x90â¤GK}Pu\x92&b\x0bÌ\x1a¢\x8b7@w1!](¼\x0e\x93YT#\x08\x9df&U\x00\x12\x9c+ÎB&K ñ ¦*ª\x17Ò$\x1ef^°³q-2¦ê©D5\x16\x87ßÅ\x9e&£@\x05"\x99|F\x8e\x99¹\x04þÊL\x80\x97\x86fÒ\x91Pò\x81|ºÍY+Q" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request version ('\\x80\\x89^8\\x0fêË{\\x9d\\x95@ÈÜÜWË"\\x9cúN\\x0fù³j\\x0ftñDÍ\\x00\\x05\\x00\\x03\\x02h2\\x00+\\x00\\x07\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03I\x1eñ)P±}#©R$'\x18@©\x9f\x11¸h\x1fÖ[H\x8fû>ýõF±Ä\x8b x²MÒH#Â¶{ª¯¥oíûëK\x05Í\x9dT9i\x09°_ôVÂà£T\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x00\x1b\x00\x03\x02\x00\x02þ\x0d\x00Ú\x00\x00\x01\x00\x01Ä\x00 rC\x11\x18\x87\x1fÚ+\x17\x95h¾\\­\x14\\GMòG"\x81\x1a·\x8ebV\x824\x8f±I\x00°\x98àÔ¾:\x0e\x82\x09+AÅîÓé\x1dz0ô\x05\x9cÉªÝ+$l2\x84Êð\x05x|Íe}\x15ù; Ú°@y§àÄBAí\x0dHÇ¶w|)]rLÖ;¢\x19º¿ª\x03ôÏ\\\x14\x01\x06\x14` !\x04\x10Ùè\x03;fF)5C.¡\x8fà\x0cù\x86±\x89»\x1a\x9a{ý;\x1cQÇIºä\x192ÁÉêÆó2JÚO[\x8b\x984;^;\x86pd:Uýx6\x16¾\x80wI\x95\x9f§KDu² \x80\x89^8\x0fêË{\x9d\x95@ÈÜÜWË"\x9cúN\x0fù³j\x0ftñDÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request version ('êÃã')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Þ¼?¬Éx\x08¸¢\x90g\x82o*s8ß\x7f4\x8d°\x8ad.tE\x0c?ß¾Ì] v\x15O\x89Fÿ«Ãs¾\x1d\x9el\x1eG\x1aãòV\x90îLI=\x86\x14lÂ\x0elÍ\x9f\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06szz\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04ÀülcÝ\x14\x9e\x09\x80PY+vÖàÇ¥»1\x19H\x90¿h\x07VU¬ì|\x09­¡Ní1;Oã¿\x7fæX%·<\x85Ì\x82Ô »«t»ù\x86\x08_!s\x92\x19Ì\x83£e\x1cêÃã" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] code 400, message Bad request version ('jj\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06Súú\\x00\\x00\\x00\\x12\\x00\\x00\\x00-\\x00\\x02\\x01\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03±\x06O\x0b\x91Ã\x8d\x13¨Õ\x01\x0d:\x97\x95-Úã\x915\x1a}\x10<_æÕI\x88-^Ò ç\x149LÃ\x9fÕg\x86\x04\x11lx&Ã!Q0&#¦/Í\x15@¸ÞÓ\x92(>\x92\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1\\x00\\x12\\x00\\x00ÿ\\x01\\x00\\x01\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03Åð4ÿg\x93×Óc[&(¯Vq|þ3\x02svUlM\x03\x9e\x15Ý\x03²¥\x02 N¿=Cÿ3b#\x8eû#\x01?§\x91\x96¦á^<¾\x00ò\x13ó\x0bO\x8fÃ\x9cjÂ\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ºº\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x87\x00 ÒHõ¿\x05Ó*V\x99\x15á0°þòwÉ¦Ò\x802ý<ZÏ\x0f­ÑË@Ü\x16\x00\x90òH\x0b\x1dm\x9a¥\x90îÝcü,ã\x13GW\x94\x0b·Dá\x00Jäi¼T,\x9f¢jï\x8fH´Q\\4ßTo\x95þ\x1e4\x83\x01\x91ä½\x1aþÔDÅc@Çh\x11?ý¡xBëA®\x1aá\x11þ\x043\x9fæ\x8c?ó-Ñ·/!»²¨"ÚíÁ}\x82tp{Òÿ\x09A1\x1c\x9clç\x88ÊHö\x99\x05Tÿõ/Mf-tuN®2«\x1cr\x1dÍn\x02\x1aá«\x03ÇZíWÎé\x92ÁÔ\x00-\x00\x02\x01\x01\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('z1')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03U¬\x84\x7f¬Ç½\x0eTÖ¾´½.ÉY\x9bñ³X$<Ï©X\x95Pf¡ JN ¤Ç\x8d?é~b\x8b"9ñ1sß\x85z1" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('jj\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06S')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03uSw\x9d7\x91Gª\x1am,¤ø`\x00@]ò¸´K\x08LWÁÔ\x80 f\x8b×, \\í,\x94\x96ºrÎ´MRó\x82µÑ\x1cüÉ¨NÕjØ%M±+\x0e>\x9be\x95\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('/\\x98,60ð\\x0e')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03qCóÈö\x1d\x1d\x0fHð¸/\x0fb¬×\x0bÛ\x18\x11mé§\\¾6\x91áEÜ+" \x96ì\x9bòÑq\x8e\x02-B³\x82õÔï¢\x84é\x1c/\x98,60ð\x0e" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('èGB=?·9\\xad=WazCZY¿°ªÓ©8gìÉ\\x07&')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03!\x1fÜZV3Vª¯\x0c\x83%§áÓÄªH^'­Ú[.©\x8a\x16©ør8& èGB=?·9­=WazCZY¿°ªÓ©8gìÉ\x07&" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] code 400, message Bad request version ('\\x00\\x02\\x01\\x00\\x00#\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:26:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03)´áBO>ìG\x91Í>\x1c\x13\x9ft,²6jVÖ\x17+Jã\x8fZ{R¨Çú Ý3Ä`ú¢A!Üà­\x9ccJ£Â\x87ö»\x852ÿ\x9eÞ\x0d\x96ÀoNhR\x09\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sjj\x00\x00\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('JJ\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06\\x93')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x039(,\x14¿6\x06\x9d·}\x8f\x81¡\x17\x14\x1eDHâªsC§Y\x8d\x0e#ZYÿá\x12 5\x99\x91ª\x8ecAÒ;\x13¯'õNe\x001:zº\x97EOû¤\x8f3ÚøPÒp\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('\\x00\\x02\\x01\\x00\\x00\\x1b\\x00\\x03\\x02\\x00\\x02\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x7f\x00\x81ìù!5\x07gG\x8fÒ\x0eÑ­ýT|©9lÖ\x1bQü\x89]\x01©g¹q \x13\x9c\x11\x93ÆþÏk\x8b\x00Y\x0dÒe\x0e-\x9eÚÜÙ\x17ð©kÝU/G\x91\x88áÀ\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x12\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01e\x00 \x87`M\x83ô\x9fõ(¼l\x98k\x85¦,\x96ìòÅø3\x1b\x1eûp\x92\x94ÜÓ¦v~\x00Ð7\x9d9\x8c\x1cÅ\x9fL\x0f´\x14#¼,í\\\x0cì\x9cÙí¦sÙ+\x92­/fEOp;Åâ½<ÉFÚ`J\x0d+\x04O\x83õ>@'\x90\x7fÌ`\x80LöI\x04\x08d{NÌúCA\x7fùeë\x10\x07\x01_NÞ\x04Ú£êð\x19Ý\x85çï\x8cÖ½\x05¢É?\x03á-¥xi\x10×$³\x81\x89g¹Èv\x9cU$:a \x85³ÜO¿Iì>ÂÂ²Æp¢]Ã~°\x09\x11lä~¹)`ä\\?Úp7¹?k0\x9eS¡ÜÆg´/Vãy\x17\x99\x81\x96J8S 1ÑMZ`B\x87éOçVçL\x0d \x05®0¯[Ò\x81¶Ê\x9a\x10=\x12£\x92\x1bÒnaK\x8f\x00#\x00\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('ªª\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06sªª\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ZÔ\x14\x09\x9e\x86ÿA*¬`\x97Èç\x0fÅúÌ_õØ\x7f²syE\x961iíR* iN?\x8b\x92[\x00¢ç}\x96»\x0bHiËy\x90a!;e-ó\x94ù\x9cTY\x13\x96Ó\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('`ËûXg\\x02©\\x19\\x10YdKç¬\\x13CÇðRH¿Ô"ÀìAh\\x19Zw:H')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03°+Ñr£)~]S´\x82Ë\x8eÉü0P\x12`ÁÊýñV\x1aÉÞÿü±\x91\x1a ­\x95~Q\x9dÌF\x96Ko³ÐC\x0fdÚÃ\x10\x90ÊS\x10Ê\x87rë\x01\x94\x8b¥\x18X\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x003\x04ï\x04íjj\x00\x01\x00\x11ì\x04À\x89\x98ºm$\x02á%Nô\x98¡iS#%!\x85¥{¥m9cã±Sv2\x86¯L\x9d4¹ºð\x98%]2_J'$\x92¸¢÷e\x01\x80ÇAÍj¼£áÏ\x06h\x8cEØz\x9cåÂJ\x81\x1déR\x13Î\x93\x16\x83·I\x7f4l_3`ìQÏ{Q²<¸\x0c\x11«sq3\x8f\x9bØ\x9dÓ6m\x1d"'N\x97gvVLØ\x87 \x03;À4\x14\x8f:\x0c\\n\x81¿ë¨\x1a g\x85\x08 \x8cs\x00)ÞaO\x18lJ±¬\x12ø(++ªs¢\x83?ñu\x1aD\x98\x1f»hB³B\x08£)Æûà\x1f\x05"UÙ\x0baI\x9cÆu¬¦Þ»\x03î³;q\x87eî{¾\x1ftÎy¦vYL`JqÌ.ÈÀÒ\x07~!v¼2 ? ªo\x07\x11~:\x88Kv\\\x832\x07\x8cSS\x9b\x99\x98h¿ZlÄ89<«>\x06ÉE \x0b\x7f\x82ÉX\x1cQNW£\x9añ&\x09\x99ÉÊOç\\æ0\x9d\x12È\x97P\x95©¡ÐPÚ°\x15\x85`ËûXg\x02©\x19\x10YdKç¬\x13CÇðRH¿Ô"ÀìAh\x19Zw:H" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('\\x9e\\x9b_·\\x17G¥\\x9cZ/\\x93')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x9e\x03¶)xêD\x85Üq®\x06\x90ðÌ\x0caÿà\x9b:üÏzEVË\x07þ\x8d¹ú «$\x0b\x93\x8bÌ¶®Äï\x9c¯ª¹\x07\x06~¯\x9cQ¼y'\x0e\x9eqèw]\x1bXm\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x1a\x1a\x00\x00\x00-\x00\x02\x01\x01þ\x0d\x00º\x00\x00\x01\x00\x01\x0d\x00 82·\x1d\x9e\x9b_·\x17G¥\x9cZ/\x93" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] code 400, message Bad request version ('\\x00\\x12\\x00\\x10\\x04\\x03\\x08\\x04\\x04\\x01\\x05\\x03\\x08\\x05\\x05\\x01\\x08\\x06\\x06\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:36:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\\%\x12 íd¦0+íÏf\x86»ðIJ\x93iY\x117¡_Üv¢=\x11$c: \x8dk¨¨¦6¶\x91\x14\x99ÿ5fÞ8jNû\x0cqV\x8eA"vÃíÐ@%ûH\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÚÚ\x00\x00ÿ\x01\x00\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ('è\\x88\\x91Ú\\x03/\\x93LeÜåKåôá\\\\×¢|º')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03y\x08\x86i\x1eè\x88\x91Ú\x03/\x93LeÜåKåôá\\×¢|º" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ('\\x8a\\x8a\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x063')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03G\x04SÓÕ\x98}\x9cÝ>ß£²1\x8fdýÕòwë»\x8bkÌn\x97\x83Ò\x18jT 3\x16µxgª\x8dýKê\x90÷\x9ce Y\x95úw\x1e\x1f\x83\x904f\x1aC1\x1b\x9eæ¼\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ('>\\x8ftý)+xyQU|\\x8cD«\\x07\\x9a7\\x1aü')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ÉÛ®\x9dãd\x93AhB\x88[\x1bv$2®T\x9d\x11Ó\x8b\x18<\x06\x10èy\x1b\x08ôu >\x8ftý)+xyQU|\x8cD«\x07\x9a7\x1aü" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ("¨4#/\\x91\\x1ap\\x91\\x00_\\x11¥t'\\xadd\\x13Hív\\x92x\\x08-mxrzì\\x19ù")
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03<­Áªé[Ö¦`¤$Cnlwò~\x1fTK3#Å\x0f\x15\x1eIw|$e\x93 ób\x8d\x95ø^\x0dDÕ>\x94Ë°Á\x02=b{\x93k¸Cp iÊtöÆºÇ¶\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÊÊ\x00\x00\x00\x17\x00\x00\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04À·\x04\x13w:\x9dÀ&B\x17¥\x968\x8b\x8fR\x1a¤óÂÃyÁ¿Rp½\x09\x94t5+\x8cá÷s°\x19qã¤oúW_\x09Xq\x09ëÂ¸f\x82tá©ªä´Ë\x091\x84©6\x16j\x96\x16;~$\x84q\x18\x02¯q&\x84Øz?øÅw°+Î9ª£°Yuh;\x84ÄD_¢F\x07ýä\x82\x09\x82;E¶\x03íÚ ýb9x\x1529\x07\x88\x10\x0c\x0d«\x92TrÔ\x0di\x13<º\x9b¬ýõ¼ØÑ]\x8f\x14\x91æö>Ùû\x83\x99S²\x1cê!$\x93\x0e,úÁ\x02²Fõª¹Dò¯x\\!\x8eå\x9c,\x0b\x9beÊS\x02a\x1c\x92£\x93t\x91&<*C[7gè%\x89½#eI0BgÅ\x0cú\x86W\x91Ô\x14î'\\Á¼Î½\x86\x0d+7\x0cì\x93K\x02ó|ø\x15>ß\x98\x96sõ\x91\x19\x14\x1fþ«*½z\x1d¨4#/\x91\x1ap\x91\x00_\x11¥t'­d\x13Hív\x92x\x08-mxrzì\x19ù" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ('Ú\\x88¼\\x9có5dX¾')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ë­"Ú\x9b\x0eçÐ/\x8aÙäÎ3J­c®ÛG\x1aíq@\x9f?\x1fPð\x18¶É \x86\x07ÿ\x0fíXøî\x04Ï\x98\x0f³Pþ¡¹dËß\x1b30éÎ\x90Öjh$\x80¤\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04Àdq¸\\Ø&ÜiÃ(C0Çl«c\x92¥°¢X¸\x99P\x94\x89\x16\x8cCX\x01ÙLãw\x88\x01;|®#\x96òf\x8aé\x88\x0eªµc3\x06b²Á¼RÒaêø\x8bT²¨QBÁ0(¥wö\x01­6b­\x15·:D\x94ª\x80\x97Éx\x1bZP\x84ê\x07£[Ù\x1c\x9f\x98?Çù_·E\x96d\x17¼Xg\x18\x0fD\x0eW\x03X¡µ\x92\\Ò#å\x93@²ûº!\x9bº¹2{Ý\x851Ô7@,¶.~à\x7fs`\x18Dl\x96Ô\x14yeË\x9cªb\x0b\x9e9;u#§2Q\x88\x1cø\x94\x1f\x95zó\x0b\x8c\x1eg£KFuFü"-À\x80·GRÈ\x1ay\x09\x04\x81Ák\x07\x05\\¥pº\x92É¡Ï'lTq¨m\x1aÀ¦À'\x85Ú\x88¼\x9có5dX¾" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] code 400, message Bad request version ('3iù\\x0f\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x034&\x0f\x83l\x96üB\x07ä\x8d|>_á\x11\x16³ð\x8cÿéVÓÞ\x07qá =Ãµ µÐ\x06ª\x07\x8b1È/­K7\x1fþ\x82\x7f®=QõcH,`\x8bU\x1a 3iù\x0f\x00 " 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('ó[*û.a\\x80\\x19Ö`ç`\\x0e')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03wh\x17k«É(éÕ\x88Ò\x0cÅ\x1cÝ\x85ó[*û.a\x80\x19Ö`ç`\x0e" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('êê\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06S')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03³XÌ\x04J¹\x85\x92ÇUÿ\x9b\x11zV`k ó\x97\x19ÒÉS\x8c )\x8b9êÇ6 B°\x0c/X#´Ü\\Õ\x83!=\x1b ôI\x13jµ6\x0bWP\x1bý¤6£.a\x8c\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('\\x8a\\x8a\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06\\x93úú\\x00\\x00\\x00\\x12\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00\\x00#\\x00\\x00\\x003\\x04ï\\x04í')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ÊájÙýàL3³:üà\x90 vZ\x9e\x82\x19)ú\\D®*\x0d\x8e\x16\x11\x81D§ 6,\x8aº\x13÷\x02°s.WÏYå\x85|ÈlTw(èç(«ó«úÕ`\x96\x9f\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93úú\x00\x00\x00\x12\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\x003\x04ï\x04í" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('`Fút¼"(hå\\x120×rî\\x00\\x8aoc\\x92\\x19èÅ\\x04k|')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03gÇ|%$\x13u­Ö¯Q<Þ&¯ñ(\x96À+Ö&\x15Ë¾@WJR×bÇ þþq¤×\x09­\x0c \x9fãâ\x96Í~vñX¿\x17ºz<ú\x9aÄ|\x02\x14òÑµ\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00#\x00\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04À\x1e%\x93\x062\x88+<jaI.Ö `Fút¼"(hå\x120×rî\x00\x8aoc\x92\x19èÅ\x04k|" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('\\x8cÏ×{¶\\x8bö\\x89«¹[½¦*')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x19¶\\6\x8bX,¶1¾ÿt!\x0d<\x92¨\x154\x19C\x8a\x95E§É·\x0f&QÜ~ +¸Ðµ\x0beæ{Å:,5\x82Fz:\x14^³\x1cGáLÑc$Ô¸-\x01\x8fS\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00\x12\x00\x00\x00+\x00\x07\x06êê\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04Àke,ûjÁ8ä |sN_37\x89SÊëPBâ*\x908X¶¢\x01\x19Î)\x9d]\x85Á\x0f\x83\x17=\x03$ÓI\x0bà(,Aê\x82íC)\x9f\x00\x8aÀG\x84"g\x8e)l=úÊ`\x82É\x13DÌ\x08ÅY\x93\x91\x80ló¶\x08\x99r-\x81{\x1d®\x03!Tj4\x1c "OPZËØ\x1e\x12*\x1e^é\x81\x92\x90I¸\x11\x99lyY\x83§gÜx«í\x924º»º\x07e\x14\x82\x86¯]\x94RÂ\x88e[¹®\x0f*B\x15ID\x19\x180^D;\x13Û»¢å\x96Z\x15\x8b&q»KuA\x15\x80\x81\x1e¸,Û!\x83!e=lâ\x7f-g8Au\x0dÿ\x9bvSÃ\x90¿x¹«Q¦\x00óF½Q\x88âh¯ \x8cÏ×{¶\x8bö\x89«¹[½¦*" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] code 400, message Bad request version ('ZZ\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06Súú\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 13:56:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¬Ñ\\ÈØº¦+\x82+\x1c\x9bª}75Ú¯&×\x0b%^ß~ÝæF\x09\x05$? \x82\x9eL"º_&æ£\x96ZúQrõ\x0e\x95\x95R\x12B«\x07èh\x07\x15¢¿örÏ\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('i#~¹\\x99#àÈ×C\\x17¥h¿A\\x17Ïk;-³#>d«°|QYc\\x80,\\x1aK?\\x1a5N@u\\x8a-\\x812wV?hµÀ·')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03L»â\x81\x04\x84²á$Õ{pèFý\x0f\x8aÏxP\x08ç\x18y\x90Åü|½HÎL \x7fFËA\x87\x0eÑÚ\x07Òd$\x09\x13;\x96¹¯\x9c¸0ýo\x9dõ¼Dbc\x96ÁØ\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04íJJ\x00\x01\x00\x11ì\x04Àdr\x7fÓ\x12\x84\x8fû^\x8f\x04Ið+Ç9\x9cL«ÆH\x0bRÃFy\x96Ù\x97»U<¨bS¶Å9SBÆ9v)?\x82Ç\x1eÇ\x04\x9e¿ \x8d9§\x1f¿ÑY\x82ç\x19î\x9bjy²dc©\x0eI¹³ÞtÃ\x05wc\x1d\x17Q\x00\x9b¶ÊÆ\x9eð*Ä\x8fü³ Å\x1d¡\x82¥Xë.Â·x,|[bÑÉ\x92º­r5"ìôÉ\x0dªzsâp¿²ZOèfHÇ!\x1c#©\x99@\x1a§È\x97d\x86\x14=\x9b\x92\x1b¼f\x16\x14V#vSt¼\x91°¡ªDº°=(-åº\x1f\x04\x17ºKÜ¢îgP(+Å\x9e\x11"a\x06\x88\x86¹¹\x16±<Û\x84Ç£P\\·$j»Ã:2:a1)\x92µâ\x91}c­÷\x14#gt\x7fEÅ\x98zÓ\x99ÏÈ\x05lÅ£º\x0b«Ð\x98\x9b\x11¼\x90+\x09\x00\x90PW*K\x85Úy\x162\x81\x80\x09¦´\x91\x97\x8cÀ\x16Z5\x06A\x094\x0ft·Kà;_nê\x84\x86\x91¯\x91kÌm,Í¡õ^%:Xg<\x08Yi\x9e^iÈ1a0¼¨\x7fT1%:Ç\x88eJ¥L2o\x8fj½\x7fÔ;\x1f²Nl\x01j½ò iF&5W\x92\x17¦\x8ey\x80$(F>>¢5zWÌ\x19|ÃSÑ@YHFºÇ\x18ZteG\\<\x98ã\x83Í¦\x16 Q\x9aiXF0¬µ\x0eØYÎ\x98Æ\x13\x93\x7f\x1fi#~¹\x99#àÈ×C\x17¥h¿A\x17Ïk;-³#>d«°|QYc\x80,\x1aK?\x1a5N@u\x8a-\x812wV?hµÀ·" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('jj\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06s')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03öý\x8e7cØ¯àÈçb\x95öl¶\x0fsõ±7\x81'\x14\x8e0\x85V \x1fø>\x85 \x11\x1dì»¦_p©\x0d\x02 dÂK¨Ö«o­¤\x84Eÿ®\x8f\x9a#\x9cÈô³ò\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('\\x8f×¬û\\x84sKô\\x06U\\x01\\x89·8\\x9aÚ¥')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x97áò\x83\x82¡Ö\x0d\x7f=\x97ÌÇó\x7f\x14ÖÃ\x17\x0ej!\x0f¨sÃ©\x1dB¨A\x08 ì\x9a\x96<ÕË\x95.\x98SìêñÖ]ð\\\x06*Ûa/\x85\x16øC3\x90\x87\x90fø\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04ÀÝ2  y\x82*æÍàI\x9dÀ\x07?f\x93ª&\x99W\x9f\x96¨®Ó¤Ò&\x0fzEm¥\x15iåû\x13Iª¬°J\x86*\x84\x8c¶\x99\x81jõgQ°ª\x9c1ÂÅKJç\x93¥_Y\x9ffÊl\x83á\x03Ôw{\x82f\x8d\x09\x83i^\x89 &øaôü·Âè¾H(Fó@\x9f²sÉ¶u\x8cñ\x02\x0c\x0e± \x9d#ÀKyr\x0bº\x06\x04Ö\x8bb@#\x0eÃ¨¡\x9aÏ\x18³C¹ùNþË\x0cÉ|a\x07À\x8cC5T\x97¤M\x96\x87L\x9c!\x8a±ü®¥ÇÈ­V\x1b\x18jxý7J;\x97WÃª\x05yë¢}\x97\x01¿\x83yþácíò\x0ciQÌ\x93À/ò\x09bp±L\x9fS<\x8e\x9aW{õÃ3Æª\x17f^ªpqÚë¥\x1fÁ+÷Ê\x8aOð_\x8b\x81)\x08ü\x92ø\x8aÍ´»¥fq\x1e,:\x82Ga\x94~ái¶\x07H\x88äÄþ¶ Ù\x97\x90Ë*!¿\x98¢\x1bZQÐj\x9e­f\x09&\x987\x99ù<\x15R\x9bl³A\x10H§c\x1b+F2¡V,X&ºKì§\x09M6[½Ì(®:È|¥%ÊÉi\x82£L$|Ì-\x17G9Ö³lð\x02\x832kFKÄJ\x01\x86å+5Þ\x06¶PüE'à\x98Ò9&µò\x02Ká\x97òk\x07Î WeC\x19Ùü\x15\x82VZ2Ã\x0c F\x9b.Ä\x8b¯æ\x1fKZOr\x11\x8e­µz\x883»-\x0cD²º\x07zj®8É¯Ct\x86JÊ\x18,\x9c2»«\x81"\x89\x0d¡\x19\x1e\x8f×¬û\x84sKô\x06U\x01\x89·8\x9aÚ¥" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('jj\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06s**\\x00\\x00\\x003\\x04ï\\x04í**\\x00\\x01\\x00\\x11ì\\x04ÀS%')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03O\x08\x1f\x04Æ\x8cA\x88\x05Ë<\x9b°H#Î\x9erÄÊêûÍ\x83]e2öG\x7fØ\x8e ¢.LúC£*\x85Â¯­õ^¸ä=#cN>ÉoB\x92È°bë<\x7fV\x00\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04ÀS%" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('\\x00\\x02\\x01\\x00ÿ\\x01\\x00\\x01\\x00\\x00-\\x00\\x02\\x01\\x01\\x00\\x1b\\x00\\x03\\x02\\x00\\x02\\x00\\x12\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¤±\x01Á\x83\x01@c=þ\x8e\x8eÐóL\x97\x1e\x17] ¥~z3\x0b[Ò5\x95÷[¡ ì\x03÷ \x0d\x9b<$\x88¯\x82 \x10Yîp\x9bÛë~Ì-\x15]~Õ\x0c\x87lyj±\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x0b\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] code 400, message Bad request version ('\\x1a\\x1a\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06s**\\x00\\x00\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00ÿ\\x01\\x00\\x01\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:06:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x02!\x17è½\x9a\x14\x04\x06ÍÕ\x8fËù¼ß{Ü\x88\x0bný±\x91Óí]¬]Ý]\x1e \x1dj~MÐ­ÒÚ\x0cÊÅÕ\x85¥\x87µ¸ÛZ!ß\x8a2î\x0cxLV·£ä!\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s**\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request version ('Â&»¸QC\\x05[\\x83ãTm!\\x16M}¸V')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x09¶¥xå\x87¦.!\x10\x9b\x1eU£Ì'±¸Ã§¬Lü#=tÂ¸G\x8a\x8eb ´¦IêqF\x89·»(q\x18\x02%\x99õ\x8fR\x83`\x0e\x88Í7Õlzh: \x84Z\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S**\x00\x00\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04À:«\x8c9µP&\x00\x97\x05{°5IÈ\x01ü\x09(SnR\x97!z\x80\x83ØÂ\x1fÂ&»¸QC\x05[\x83ãTm!\x16M}¸V" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request version ('êê\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06sÊÊ\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03H\x11,\x8e\x9a\x12ªzð\x14Ùü\x09j­r¡w³\x88ö\x8cýjO8©Üàl\x82\x07 \x19Õ\x88Ê´ ±ð÷ß\x05\x92d×\x92S½\x97òW÷~¤Òi%\x14¾ËTòõ\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request version ('±P1U\\x17CR¬')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x89ÌÞí]Ëw>\x9bÉ\x8d,×n«DóÌ¯¿â¼3á¥ð\x18x-Ù3\x81 /D\x90ñä\x8eC\x13¡\x07\x9a:o\x7fl\x90\x06\x8c,\x15E\x98eY\x1a%ª\x8a8\x9aFÃ\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00#\x00\x00\x003\x04ï\x04íjj\x00\x01\x00\x11ì\x04À\x12Â\x1e±P1U\x17CR¬" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03,õ a7¼ø)q\x06&Æ_\x09ÿ\x0eïÉ\x01ú\x95\x14ó\x18:\x97\x19\x08Õ/ê× ³,©\x16T¥wh\x1c·\x96\x8eù°\x09î\x9b\x0cyéït\x83oTþrB\x8cÎY3\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x17\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01\x17\x00 |\x1dS®Ó\x10\x15\x93\x0c\x89D\x10ÎÖùNÄ\x80 \x96\x9a¶\x0fÔ¥»ZT\x06o!&\x00Ð\x10xÙëë\x06\x89h\x9d,*½ÿº2¼\x03\x8dPôâ<b\x11ÏÇúµ\x98ükµû\x1c\x8a,\x9c/@¬@ë©dÎ\x17°>\\°"ê§\x04\x9e\x1c\x1e\x09Ûá\x9eø8![&#ã\x1f2\x02\x09\x16x\x86Z×)/ïWÇ\x9cKx3\x06\x0cdEØh\x92§\x06t\x9fvòiB-d^Ã;å¨Þë"\x9aQú*\x95fU¿£\x01\x8a\x05a4ÊÁ\x0bhBr¶X\x9f|YTpË«\x19óP\x99L?Jâ¢\x85¬\x06pþ\x0fq\x932ÈÏSurÜ\x85\x83©rE\x996\x12¥\x8fîª ú\x85\x18?û®\x9b\x93÷\x158:êÔC8ÛNi&(\x13°½±\x05\x84æ^*#DÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request version ('¿\\x08"d£R6Òus£WG¬5TÂZNÜ»Ë¸Î\\x9e3\\x14NÆ1jl\\x89¨ê`\\x91é¶+u¼äVPîV¨7\\x055Kû\\x14ES\\x91\\x81ª\\x06â\\x86r-úgê\\x1b½`4\\x89áL\\x8e\\x83\\x10Äñc')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03X\x195\x0fô\x9b*U\x949\x08\x86,¶7.;Ãô0hT%z6\x16\x98í<\x03\x1d\x84 ð Î*0Ò×\x8a\x81\x86pð×éV\x81zAj*\x9ao\x9fzIÛ\x18]\x95K¼\x94\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x003\x04ï\x04íÚÚ\x00\x01\x00\x11ì\x04À¾r(ôì2\x89µ\x9c)Û\x81Õ¶¿\x0d\x06\x037\x03®ÁhÁDÔ\x0f\x89ù·F¤%9\x95\x95¾\x84*.\x9bÊ\x94ë\x8cj\x1b\x1d`¸5çY\x99É#Q\x00Ü*lûAá\x80\x8faÓ\x16\x9d8UYÃÀ'É¥\x92ë½S\x99CZ·ÅÙÕ\x94f\x93@OY9öå?G¼\x96aÆÉ\x1c\x85\x1d¿\x08"d£R6Òus£WG¬5TÂZNÜ»Ë¸Î\x9e3\x14NÆ1jl\x89¨ê`\x91é¶+u¼äVPîV¨7\x055Kû\x14ES\x91\x81ª\x06â\x86r-úgê\x1b½`4\x89áL\x8e\x83\x10Äñc" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x07\\x00\\x01\\x00\\x06ü\\x03\\x03²&Ï]ó\\x8at\\x9aa')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:16:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03²&Ï]ó\x8at\x9aa" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03a*;\x92èê\x881\x7f­\x7f\x98\x7fFèð!ßç¸º%" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x06À\\x01\\x00\\x06¼\\x03\\x03\\x95\\x1b\\x11ä ')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x95\x1b\x11ä " 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad request version ('\\x00\\x02\\x01\\x00\\x00#\\x00\\x00ÿ\\x01\\x00\\x01\\x00\\x003\\x04ï\\x04í::\\x00\\x01\\x00\\x11ì\\x04À\\x99Ñ¬ËI+¾+')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¦}t\x17}w{Ì½nµ«~­2òµ\x94\x83ªÏÜ¹REÄ\x00\x13\x8bÝ\x0fÚ \x9bùº¾ùrW<\x8f«¨üòvë©\x89d\x900m;ÿ\x95+\x1fû\x03\x0fM>µ\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x003\x04ï\x04í::\x00\x01\x00\x11ì\x04À\x99Ñ¬ËI+¾+" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad request version ('\\x00\\x12\\x00\\x10\\x04\\x03\\x08\\x04\\x04\\x01\\x05\\x03\\x08\\x05\\x05\\x01\\x08\\x06\\x06\\x01\\x00+\\x00\\x07\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03÷\x19jÃÇ¡Ü\x0fØ_¹\x8eï=\x81«Ç&4c:ñ\x9dèB;î\\;\\\x04\x8d N<2\x158\x81\x8e\x85\x14é\x1biY=\x7f\x13ñ\x14b-eU]sª\x02»^\x0dÓÅv\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad request version ('\\x9dLKZ\\x97zÈ\\x80ÿy\\x96f\\x16¶¨')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Rù»¯\x0b5\x83¸¬½\x88i\x7fr\x17~a\x81\x06\x9aÌ\x06\x13O· :¶Ùmpõ )\x92¼\x11Ô`\x03\x0236É\x89,ðFs\x8f\x19âÍ4\x87xÕµå\x8c^´ 6×\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03þ\x0d\x01\x1a\x00\x00\x01\x00\x01M\x00 \x8b¥\x07\x00ÚÅéT=D&M\x0d\x9dLKZ\x97zÈ\x80ÿy\x96f\x16¶¨" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] code 400, message Bad request version ("'Æ\\x16,8Ð\\x00")
+::ffff:127.0.0.1 - - [25/Jun/2025 14:26:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ú\x1eI]Ä\x00WØ~D@tÔ¹y·-';÷Ê*¬\x00S¨àm>@ò~ nKn`\x8dàMtÇ¨ð)aòÅ°C%­G}V;\x9au\x09'Æ\x16,8Ð\x00 " 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad request version ('Æôñµ¡üç\\x03\\x8bÂ\\x983)\\x00°xÕÐý<;')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03S\x13³\x19\x06 ÄíJÜ9¿Âù\x14¼B\x98\x0cþå\x05mÚ\x0e[@d\x8cf¦Ù ^Ûíû½\x9b\x01\x9e\x93±\x11\x87½D\x1b\x14fâ\x82\x91Ë\x08\x1c§\x1a"\x94º\x16¬,\x1f\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00#\x00\x00\x00\x12\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01\x89\x00 J[º\x04\x98êÂRlDò\x90âË\x99÷B¹ Æôñµ¡üç\x03\x8bÂ\x983)\x00°xÕÐý<;" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad request version ('\\x02h2\\x08http/1.1\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03*\x1cåa<¯\x9aoâxv\x0c­\x83¡\x88\x1f@/Ö§¤\x099]\x81êwAÃR½ \x8d\x9aúä\x85²47&G\x13\x05ZÖ\x88"³\x15C\x06\x8eã)®µN$\x0f\x83¿½X\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x07\\x00\\x01\\x00\\x06ü\\x03\\x03Pu\\x10l§a\\x999\\x18:e\\x86\\x89º²o!ô')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Pu\x10l§a\x999\x18:e\x86\x89º²o!ô K\x05" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad request version ("\\x14;AçMUäF¢JD¾È\\x82+°®÷Â\\x87nx\\x81d¥¬Çb.\\x19\\x19ÁÚTyÕµ\\x9e\\x03'\\x04®È/ÇpCyå·\\x9ff\\x98Ô9®ßSKE\\x90Î\\x15JS")
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x85*½×£Ê3j9õ¯Ñ\x01$Z\x0f\x98=ÙÝ\x9b%¢vª:¿\x0f\x0bnªÂ 9l\x9d\x80U\x0f\x12lpÌ=³ëó\x8eÔ]òØ\x1cVì^·\x0f7¬\x8fWÂ?\x96\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x00\x0b\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00\x12\x00\x00\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04ÀñC½_\x1cm.K\x7f]éÏ<p\x8f§ù\x09 \x14;AçMUäF¢JD¾È\x82+°®÷Â\x87nx\x81d¥¬Çb.\x19\x19ÁÚTyÕµ\x9e\x03'\x04®È/ÇpCyå·\x9ff\x98Ô9®ßSKE\x90Î\x15JS" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad request version ('JJ\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06sJJ\\x00\\x00\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00\\x003\\x04ï\\x04í\\x1a\\x1a\\x00\\x01\\x00\\x11ì\\x04ÀÆ¦\\x92u\\x07|ù©Oòü:\\x9c|\\x83ÈkÊØ\\x98\\x8føð')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x06|\x1b\x03\x08\x0eM\x0b~m7\x09HV|ù6Ø\x1dà\x01Yn>ák\x0d\x12\x87×Wâ ÃZ¥|\x82-ÙÍ\x1c`\x8fr)Æ~ÿOé§?À²<¥\x02Q³x\x00\x15=é\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04í\x1a\x1a\x00\x01\x00\x11ì\x04ÀÆ¦\x92u\x07|ù©Oòü:\x9c|\x83ÈkÊØ\x98\x8føð" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] code 400, message Bad request version ('úú\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06Súú\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:36:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03gª_±$E;0ä\x94Zy·bd2Ã²/É\x0eäÈ|\x83\x973th\x14 \x17 <®§\x0f\x02\x0cÂuÛî}#Vº\\¬\x0f\x94}v;\x91X§\x9c÷\x8c±\x8e\x9fªó\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad request version ('VÄWÇ\\x11vÂ\\x97\\x81\\x10É±±\\x99{Ì²ÊY¢k¡')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x82§\x94¬\x94ÎÈüÄð^ÍÓæ\x15Øß\x86|.\x8d\x8aà\x16\x1c¹^\x85\x0dáý² O\x86¨a\x07Q\x1aÞ\x83o>\x0f\x16\x92°¯øÅ6Ó\x9ci'í\x1a²,a/h+E\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sºº\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íÊÊ\x00\x01\x00\x11ì\x04ÀP\x90K+u\x9dhjÍ\x02b\x03Uª\x12Û»q*ÂH`\x85\x80¸gaæ¢ þ\x9a¶æiFÈì¶¬\x9cv\x8b \x9e\x166#WP_ç,6Úó¶[\x80\x9f~\x94uûÐ\x8e;h2Ìu0kë\x94ýÜ¤ \\'\x9fu\x9dÝô\x95Û\x15o°d®Gi\x82#ãO)Rªg·\x81á7 F@U§ñ\x90Ô+ \x9b\x02 d÷k\x07B@À[;N\x82{\x10\x99Í`Öu\x0f\x00(íª\x85\x99Ù?O¡'9G³\x18°'Ð\x0bI\x10@¦#Ð_ \x8aZÃ \x9bê\x17\x7fyK\x01×ó/ÍHpq\x1crÝÉ°Úñ¨öZ\x1ej%m?ç¸W\x87h÷Ú>\x8d\x9c\x1f\x1eÄfc3{Êz\x1b¡'\x94Æ\x9cNqÑÍòI\x19k*Â×G¿H\x83w<º\\¨\x88\x02×Â_"\x16®»(|]ædòk\x8a´õ±\x0f\x99?2\x17»øl²ÙJ9ì49>\x81m\x93\x17ÊË\x96?¼¶¼~u\x9eÊ,¼6GIêªÌ\x86p\x94\x14f\x90\x0eÄ[},RsØ\x9f\x1bHK©\x0c­Î\x1cVÄWÇ\x11vÂ\x97\x81\x10É±±\x99{Ì²ÊY¢k¡" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad request version ('Ù\\x0f')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03&\x94@\x86¤47%¬x 6o Ù\x0f" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad request version ('à:\\x84\\x11\\x98\\x9dx]má:Ú\\x04\\x9f³Sd81¢ßÂa\\x10Cüð\\x16=·õb£\\x03\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x93°îÉA\x08G"Q.¬\x91ÀK\x09é\x03f5\x86<+Y<\x84\x7f°Ëå\x08òR \x1fúZi\x9d\x96º\x00vODÑù\x97nl¤}c>aÏ}°5ðC\x81ÒÄ·R\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x1a\x1a\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02þ\x0d\x00º\x00\x00\x01\x00\x01,\x00 bùvi¶Usµ\x93ªCbÀÅ\x08\x08Ã©2\x01*ôüq[Â2ýÿQ¡\x0c\x00\x90±Ã~Ùh´\x13W1&íÞïcÔê%¹\x92­¼Â|\x87ü#¡ug{'Õ8ÍBOûÓ+±\x12`fX\x7f%k\x12éBþVÙáÐi\x8eV|µ\x19\x05f\x08Â¼¢¢R\x1c[-\x9b\x86\x9dM\\\x00\x98Y,¤(ôÊ\x99\x8faT\x7f\x07AOgý$x¾âðy@ß\x12\x9a\x91ô \x1e\x85à:\x84\x11\x98\x9dx]má:Ú\x04\x9f³Sd81¢ßÂa\x10Cüð\x16=·õb£\x03\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad request version ('\\x12$¸\\x17\\x87')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x17\x85e\x19\x00\x1eôC/Ü\x8eã\x11{Ól|Z\x12îÑK½3Rã\x13ßÃ½\x17% \x12$¸\x17\x87" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad request version ('\\x00\\x12\\x00\\x10\\x04\\x03\\x08\\x04\\x04\\x01\\x05\\x03\\x08\\x05\\x05\\x01\\x08\\x06\\x06\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x1dWcgO\x0d*þÒ$\x16ÅKû\x89\x9a\x7f\x1aÍ®ÿX]\x01g_(ß3\x8bå\x06 »6\x06ôïõrÉ`pé*pqJN\x0d\x162\x97\x8a{Î×\x14\x9c\x88\x83O{¬h\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063**\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x06À\\x01\\x00\\x06¼\\x03\\x03E×IZ¬¼"¦%;[/\\x19ß\\x10W4ÔÓi¹ä2ð«\\x82¯]$H])')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:46:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03E×IZ¬¼"¦%;[/\x19ß\x10W4ÔÓi¹ä2ð«\x82¯]$H]) \x9a°}[^â\x80Ík­¤\x98©s©.\x0f" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad request version ('GA\\x9f\\x9f')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03×\x86ç\x94,i§Ç\x7fc\x1aut\x98\x06®\x9a«&¸\x12\x06v®b¡ñßù \x99\x80 :³¹Æ¼å\x8cV\x88ï¿£\x0c\x8f2ú\x05BÍÎÖR\x8b&Q7k\x0e\x8e¤U\\\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063::\x00\x00\x003\x04ï\x04í\x8a\x8a\x00\x01\x00\x11ì\x04À;\x0b\x13Õg®H\x1b\x84*åÏ\x80\x1a\x8eóç\x0d\x15Ì_\x1di8\x9cÒn7uS\x9d¶;_eÇè\\V:\x971\x86Ú\x8dá\x9a¬ö\x86\x0eX\x83ÆÓÁª±kQW¦ÀK\x91\x06Ãì\x98\x06\x17l\x98ä\x08cà\x8b­¶\x82Á\x1b9\x8b¢I¸\x93&\x871½\x93;y\x98Fo;<D°«>ï\x17@\x00Ü¾çÒªZÒ\x9dÞ s¢¡ Áµ_9+Yjecg\x8a \x0d6¼J2T¹ò«j\x93\x9a\x17A²¦4¤RÕ\x00®\x98\x92ç\x89\x8f?L\x90\x04g9þ³\x1a!ÙZ*\x8aX¥La6\x9cBêé«\x82°\x89KÙ>\x06G\x7f©$\x85v\x03\x1cµ)V\x91q\x99÷LÇ\x9c#±\x1dá»rÂÆ\x04s!\x1dÀvIq°íÆ\x00Gà&~\x08|\x9f\x98jg\x03e{\x1b\x1fGA\x9f\x9f" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x06À\\x01\\x00\\x06¼\\x03\\x03\\x9dSö#îÄÀàým_ËÒP°ÙÒ[/+!.p\\x00©xWs2ÈgQ')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x9dSö#îÄÀàým_ËÒP°ÙÒ[/+!.p\x00©xWs2ÈgQ O¿\x9f¾\x7fn§xØ" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad request version ('¶\\x9f\\x03Uè¼\\x0f~\\x10WÔ¬|')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03Y7U9\x13H\x11\x1eI\x9c1Þ÷R\x9d}"$6|Þc\x0b¢ÇÙf\x97s\x8c\x0e\x84 ÌG\x82æ\x1d!ø\x92oÕK\x14\x1e`ýê8þ]\x80ðsÈ ¸f\x9cxVy\x91,\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063zz\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x05\x00 ¾\x1f¶\x9f\x03Uè¼\x0f~\x10WÔ¬|" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad request version ('8\\x178Þ±~ù\\x9a·Ï@\\x17\\x91')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03yd\x95V\x08AÆ\x9c7Eë]\x9b\x16¼MÄ¯ð\x98½&|#×\x1d\x94 ð\x93Úw «[$J®iÒ\x93«\x1fÕäk1YÇä\x8ae³eã\x89t\x93Å\x08údk\x16W\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x12\x00\x00\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04À¢Ùiñð(®J¾\x09\x9cÇXÙ\x17\x99¢TÝ\x86\x995uD\x99\x14¤ZÓ>\x99\x12/u\x95"5©\x1a}[X\x9fÛ\x01?@uÈ'\x1c8\x178Þ±~ù\x9a·Ï@\x17\x91" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad request version ("´¨\\x81·rÀ\\x84OC7þ\\x9fÒ¢t²Ú¥¯~|È×\\x19ky\\x89B\\x9bÑNâùP¾'")
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ÏÚüû7M\x19jä04Z\x9e_È[(`4 4töò\x13ì<ç¦äWò ù\x85\x94¾öÐgÚbÓ\x847sa¨«é½V\x13.\\@\x14¿³\x05¥d\x1f Ó\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93êê\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01½\x00 \x15>\x8f¿K·\x04$l\x8fjðê&¯\x87n\x1eË\x99#*u¼R}òÝÿ\x8f\x0b \x00ðì«Çî#\x9e©\x9e\x05\x97\x09>|\x8d½f\x1b\x84ã©\x13õwèiã\x03ù7Ö\x88ÐBY\x96gÝÚÏ'.¥õhA4\x17\x9e\x19Ò\x8e\x04\x00coÉb{¾"é\x0b\x00\x16[pÇ¾rM\x06(È\x85\x11\x91ó½²\x01ÿJúm2ËI:öëDs3¡\x091¡z\x9a3+¿ß·®\x02cº?\x97\x9e®WÛô¯ùÞsl¸\x10¥>íü4Ã\x94\x08\x92t\x0f`Á)è\x0d¤î I\x12Cu\x94\x91e\x0b´¨\x81·rÀ\x84OC7þ\x9fÒ¢t²Ú¥¯~|È×\x19ky\x89B\x9bÑNâùP¾'" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] code 400, message Bad request version ('\\x1a@')
+::ffff:127.0.0.1 - - [25/Jun/2025 14:56:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¤[@PiXÛ¬!äöPá"¼P\x9a\x1dW§\x81Êkí"nãEÞ½§T \x9aêF¤£5¯\x08\x09\x04ðFç\x0dëyf\x1ahAÊRùÕ?Ë1\x81±¥Ù\x9e\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06szz\x00\x00\x003\x04ï\x04í::\x00\x01\x00\x11ì\x04ÀC°\x80½g\x83SÔ±\x06\x95\x19\x1fÌ\x11òj6\x95à9\x00\x1cgñG}[\x03TEIy·æ¶£©FÞ0u\x08`m$Ù\x99ð@\x0e&&\x1fäLh«Ô|ãh\x8cy\x96\x85¤\x03nÔT~é\x81A+ \x93Ck«Ý2|QDEKa+Ü!"ôa\x82WAaVæ~\x8aw\x7f\x98¦@ÛøÍ\x0eÄ\x86ë\x11ªY\x97\x9eÀ6\x03ô\x95\x1a±ûEyb`î²=1'ScÊ\x83\x97C~W3±÷Jk\x12ëpÜË\x1f\x1a@" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad request version ('\\x08Aûÿi\\x8fü')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03IòDÊ\x08òPWGÐgìÝS¾\x15Ñ\x008äjRz\x1alíÍ\x81ë0ë\x9f ¼\x9fyö~\x96$ß4\x0c®jO\x0f³\x97ñOY»#?\x0bò\x84\x8eN\x8f{\x83ý.\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x1b\x00\x03\x02\x00\x02þ\x0d\x00Ú\x00\x00\x01\x00\x01\x8a\x00 \x05Lb4\x95\x9dPà(ªº!£\x02eþ\x1e\x9e\x19{û#\x1f³Ö5%Xxõé\x17\x00°s0ËH¯nQ\x89©Ú:\x1eQ9@@8á.ºG½+5\x89¾º\x86\x02d²­\x01g\x0fï+­I¶Ntg\x95\x92s\x02â\x86Ü\x04\x80\x1ek\x93¼ \x08Aûÿi\x8fü" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad request version ('::\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06Súú\\x00\\x00\\x00\\x17\\x00\\x00\\x00\\x1b\\x00\\x03\\x02\\x00\\x02\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03PÁ\x15¥Ù ³Ð?h&¡\x1d.Ä\x8cý6/\x06ÚU$ùm¢¾­ô\x91Cí ÀsÄ8\x09èñ\x86;\x1b\x9ar¡=ülá\x88a\x04´\x82\x1b\x1fÀµs(TÂa¾\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x06À\\x01\\x00\\x06¼\\x03\\x03âì":I\\x14L½¼cñý¿\\x8d2¿\\x97<A¸')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03âì":I\x14L½¼cñý¿\x8d2¿\x97<A¸" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad request version ('\\x00\\x12\\x00\\x10\\x04\\x03\\x08\\x04\\x04\\x01\\x05\\x03\\x08\\x05\\x05\\x01\\x08\\x06\\x06\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03í¼®/\x964Ã²\x18q®ï\x04Â\x09Ù\x95÷%C¯Ó¢Tç`Ò\x1f¼à\x04ö \x00c«ð·Ac·"\x8bÌ*\x1cå\x0cÍ \x84ðÜ"\x81Ü\x80³¾\x11\x9a¹ÒÊ\x02\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x0b\x00\x02\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] code 400, message Bad request version ('ÚÚ\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x063**\\x00\\x00\\x00\\x17\\x00\\x00\\x00+\\x00\\x07\\x06')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:06:08] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03FjaÇiÌ\x9f9\x9c§ÍDZÞ|6¶\x88&\x17\x92ÙT?7V\\)vX0b >\x16G\x88¢r \x8bòtüO1í 1Ä%\x85K\x09êDäñb\x85KG\x16\x02A\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063**\x00\x00\x00\x17\x00\x00\x00+\x00\x07\x06" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('ªª\\x13\\x01\\x13\\x02\\x13\\x03À+À/À,À0Ì©Ì¨À\\x13À\\x14\\x00\\x9c\\x00\\x9d\\x00/\\x005\\x01\\x00\\x06S\\x8a\\x8a\\x00\\x00\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03*\x876\x0bCó:±ðÖÈ}\x8d\x92ÞµP°ò\x9a$3\x90¦È\x95}QXC1¥ \x838\x0c15|½XÌ\x02\x91mñôRÜÄ¦«Ñ\x0bÙüyèKÝ\x7f¦Ã\x0b\x04\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('¶\\x01aÙ½\\x1a;\\x0eàß\\x84\\x98MF¥\\x01´tÞÏÎ\\x00\\x8ad´ÁMÌ»Ï\\x07[\\x12Àf\\x83iT]ªÆ\\x92?©g×â\\x8c¿4\\x10?\\x87\\x04\\x19È©è8@ö\\x8f¨\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03{@xríõY·nª\x04²$õXPL\x18å\x1dv\x85ì\x7fµCj°Ì\x1e#³ \x9c\x02û\x0bKtÏ³ÞI¼\x15\x8c WØ>ûKr©\x81/\x03W\x95Z/Q£êÑ\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x12\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01³\x00 ¯îÿ¿R­REòø"ùáÛô¥<ð\x03ÃøKòwû°\x9ecYLU8\x00°iPRõ"ßÑ\x08\x1d¢ëz\x8aû¼\x13\x8cÎgóVòÕ\x85\x10©[\x8c%¦3ã\x10Ãî\x98$\x85äµæ\x1b#±NA¦ªÒ\x12¯z\x83`u±sw\x9e~ìûKî%çsÕ\x08Á@¶\x10\x91é\x02Ü2gY·½\x84\x98ù+©\x08\x97\x0cò\x88\x19\x02«s\x88ª'B\x93Q\x8dovn\x18\x7fùÎÈ9 ¶\x01aÙ½\x1a;\x0eàß\x84\x98MF¥\x01´tÞÏÎ\x00\x8ad´ÁMÌ»Ï\x07[\x12Àf\x83iT]ªÆ\x92?©g×â\x8c¿4\x10?\x87\x04\x19È©è8@ö\x8f¨\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('á°I!\\x0fÛçS7YG2åvYå\\x10É@x\\x12ýua¤u')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ÈìBú\x13l\x9bò?æÛ\x96ØE\x945Rh\x16b\x04^U<d¼÷,.\x0eÞ\x11 Ù\x19,³°\x9drk(Ã"¼\x87\x9a\x05\x11ñºÕa\x94é\x0eåï¦\x02\x98\x05\x08xÊ\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sºº\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01\x99\x00 á°I!\x0fÛçS7YG2åvYå\x10É@x\x12ýua¤u" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('\\x7f¬7l<}û|M\\x15$·Þµ¿h·\\x08*ìê\\x14ß\\x1bEý©}VB¨\\x86I=\\x86X\\x1aØ\\x00-\\x00\\x02\\x01\\x01\\x00')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ø\x0f\x0d÷h\x91S\x9dÅ\x9eöÊ&ä`£\x0b ´\x9621¾#É<VÖm\x8f)\x9c çQ[\x8a·;à\x11Ü¬æ#§\x0c\x97\x01Yæ\x04t«8\x8d£\x05Y\x971Ë\x0bxý\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06êê\x03\x04\x03\x03þ\x0d\x00ú\x00\x00\x01\x00\x01\x97\x00 \x86á§\x9cd0\x14\x90ã~@E\\>hxÈ6@\x07âãCv[\x90«\x0fÚÃ¬<\x00ÐP\x05«æ¨\x88iH¥\x86lõ\x1d¢; \x02Ðd5%&\x15\x0f\x83µ\x15oë°\x95\x0fJæ\x98´\x15F\x92¸\x1fv\x95XÌ|NõuÌW-\x8dd\x88@¯«\x89\x83S·Ü³\x13 \x9cL¨i£\x9e\x1f\x99\x9b\x16YÙ\x00Ð\x08o9\x19\x86\x1dæ<fýyw Ã\x87\x02i}\x9dø\x8f\x94áû\x99\x96\x89Þ+}1ì\x0f1¿­kB\x01¦\x99Ál½aZfª£\x1dÂÙüé:K\x16DTdý\\dZ\x94\x8dH\x06Sÿn\x0f\x09æ85ó \x0d[\x96'ã-Ògïlø\x1f\x7f¬7l<}û|M\x15$·Þµ¿h·\x08*ìê\x14ß\x1bEý©}VB¨\x86I=\x86X\x1aØ\x00-\x00\x02\x01\x01\x00" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('\\x05ê\\x93Y¡\\x94\\x80ú\\x87áQ)±')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03KDg\x91v[ ¢§\x14r*@l\x9e-GÃ\x9aäæ¼µ\x87½H \x8b\x17)\x06÷ \x05ê\x93Y¡\x94\x80ú\x87áQ)±" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] code 400, message Bad request version ('È?Xü×\\x0e\\x01ß\\x04±vfp\\x89\\x1a½B8\\x9cU\\x9e/kÎÎ³édÿ`¥\\x00Çd\\x86,µ')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:16:08] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03 5ñbK?\x0f[\x9eS^òSÞ#.\x1aûá¢\x17B\x14I\x9a8x®\x8f&Ýz \x85K[\x9cô\x8a\x97¬aÈ|È¢­Ê\x95êI\x9b0\x09\\\x80i»\x10\x1fZ]Òv\x99\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93êê\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x1a\x00 \x01CW¾û¥¯\x01þ\x16\x81È\x1ah\x1bEÒ?´*\x8cñ\x00\x18\x83Aõ¿ÊåÆ@\x00ð\x09Ì¥-y=v\x84\x15#\x0b¥À\x86?\x89¤GDüò¤äf\x9d\x80ôfYMTtÉ\x1d×pzK®¹eúÞZ¯F\x12ôÅ\x88\x8cðx¯FæRU× \x99Èîv\x8a4\x0bÓTÎÛf^a¸3¶\x85K\x12,lG¨\x16>'¦VYgüÙ>gñ\x0cè×Ð\x8dæ²äG#î"\x898ÎÎÛ\x10~³\x0f"\x87J\x9aGä<\x9a\x1d÷­T¥G"Ê\x8d\x00\x19z9\x16\x08¯¯3ÿzí\x0bw¨ÆÕÜnd<BEíÛ\x0cÈ?Xü×\x0e\x01ß\x04±vfp\x89\x1a½B8\x9cU\x9e/kÎÎ³édÿ`¥\x00Çd\x86,µ" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:25:31] code 400, message Bad request version ('Ý|:\\x0eaæ#ZM\\x8a¬±Ò\\x87')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:25:31] "\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x94ÓH¯p.\x17>\x92H\x8bá´»{Z\x16\x04gáö(6øhh\x8an1¸é> \x9aÿ5\x18x^§sYY0¥b\x02ÔQOk\x17\x0bàt>¤½ç\x1eâæêP\x18\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x1a\x1a\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06ÊÊ\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00\x0b\x00\x02\x01\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00Ú\x00\x00\x01\x00\x01%\x00 K\x14Æù,f\x0f_\x07AdÅ\x8fG2÷1Ý>n\x1eÞ\x1aõ©\x99r=åV!^\x00°\x0eò\x13\x09\x98ªh5]ã\x93Ù\x9a¾vÎÆq6Tí\x17\x0bxL\x9b½Ì%¢ýs¼\x8c§\x15ÀÚð<öbrß;qÎ£H\x17\x08©úo\x00ÊYÅÏì\x1dÝ|:\x0eaæ#ZM\x8a¬±Ò\x87" 400 -
+::ffff:127.0.0.1 - - [25/Jun/2025 15:25:31] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x01\\x07\\x00\\x01\\x00\\x06ü\\x03\\x03ð')
+::ffff:127.0.0.1 - - [25/Jun/2025 15:25:31] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ð\x1eÙr:MV\x8b1qâ\x8bRôfj\x97\x06\x86`" 400 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.b9fe449a277fe53cf0a0.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.ddd6bb11d6e5a2c856f3.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.d18556a477054526a0f7.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.9ebc9e41b08889bbe951.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.fb54846ba6bda9066c7c.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.15b5f3f5e4c2079977ce.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.9558a1282a3e56e584a4.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.1ae73bd437c4358b7216.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.d522e816828556a18d32.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.2ef122d93f78af65f029.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.67a6244a7e1f1bb73df6.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] "GET /css/main.b08456022aa6320378d4.css HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 20:55:34] code 404, message File not found
+::1 - - [23/Jul/2025 20:55:34] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Jul/2025 21:01:03] "GET / HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /js/main.11d235ac00efec881432.js HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Logo.svg HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Process/Process.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Projects/08.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Before-after/Before.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Projects/Errors.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Before-after/After.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Projects/rootsy%201.png HTTP/1.1" 200 -
+::1 - - [23/Jul/2025 21:01:03] "GET /images/Favicon.svg HTTP/1.1" 304 -
+::1 - - [23/Jul/2025 21:02:16] code 404, message File not found
+::1 - - [23/Jul/2025 21:02:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
