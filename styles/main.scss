@@ -1,1 +1,30 @@
-@use 'components/before_after.scss';
+@use 'typography';
+@use 'colors';
+@use 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: typography.$font-body;
+    color: colors.$color-text-primary;
+    background-color: colors.$color-background;
+    line-height: 1.5;
+}
+
+.layout {
+    min-height: 100vh;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+h1 {
+    @include typography.display-large;
+}

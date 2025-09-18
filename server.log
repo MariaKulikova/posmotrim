@@ -1,0 +1,5231 @@
+[0m[32mTask[0m [0m[36mserve[0m deno task lume -s
+[0m[32mTask[0m [0m[36mlume[0m echo "import 'lume/cli.ts'" | deno run -A - "-s"
+Loading config file [90mfile:///Users/tinky-winky/projects/setify/_config.ts[39m
+🔥 /fonts/playfair-display-italic-400-900-vietnamese.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-cyrillic.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-vietnamese.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-latin.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-cyrillic.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-latin-ext.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-latin-ext.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-latin.woff2 <- [90m(generated)[39m
+🔥 / <- [90m/index.vto[39m
+🔥 /CLAUDE/ <- [90m/CLAUDE.md[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+🔥 /style.css <- [90m(generated)[39m
+🔥 /favicon.ico <- [90m(generated)[39m
+🔥 /apple-touch-icon.png <- [90m(generated)[39m
+🔥 assets/images/favicon.svg <- [90m(generated)[39m
+🔥 /assets/images/logo.svg <- [90m/assets/images/logo.svg[39m
+🔥 /assets/images/favicon.svg <- [90m/assets/images/favicon.svg[39m
+🔥 /assets/images/projects/rootsy_1.png <- [90m/assets/images/projects/rootsy_1.png[39m
+🔥 /assets/images/projects/errors.png <- [90m/assets/images/projects/errors.png[39m
+🔥 /assets/images/projects/08.png <- [90m/assets/images/projects/08.png[39m
+🔥 /assets/images/before_after/before.png <- [90m/assets/images/before_after/before.png[39m
+🔥 /assets/images/before_after/after.png <- [90m/assets/images/before_after/after.png[39m
+🔥 /assets/images/process/process.png <- [90m/assets/images/process/process.png[39m
+🍾 Site built into [90m./_site[39m
+  [90m23 files generated in 0.19 seconds[39m
+  Server started at:
+  [92mhttp://localhost:3000/[39m (local)
+  [92mhttp://192.168.0.228:3000/[39m (network)
+Changes detected:
+- [90m/styles/components/sidebar.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss.tmp.37781.1755009652199[39m
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1755009687922[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss.tmp.37781.1755009718801[39m
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+Error: Expected expression.
+   ╷
+28 │     padding:;
+   │             ^
+   ╵
+  styles/main.scss 28:13  root stylesheet
+    at Object.wrapException (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:2302:47)
+    at SpanScanner.error$3$length$position (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84659:15)
+    at SpanScanner.error$1 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84662:19)
+    at ScssParser0._stylesheet0$_singleExpression$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120996:17)
+    at ScssParser0._stylesheet0$_expression$4$bracketList$consumeNewlines$singleEquals$until (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120666:40)
+    at ScssParser0._stylesheet0$_expression$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120901:19)
+    at ScssParser0._stylesheet0$_declarationOrBuffer$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119506:23)
+    at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119423:35)
+    at ScssParser0._stylesheet0$_statement$1$root (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119317:162)
+    at ScssParser0._stylesheet0$_statement$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119320:19)
+Changes detected:
+- [90m/styles/main.scss[39m
+Error: Expected expression.
+   ╷
+28 │     padding:;
+   │             ^
+   ╵
+  styles/main.scss 28:13  root stylesheet
+    at Object.wrapException (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:2302:47)
+    at SpanScanner.error$3$length$position (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84659:15)
+    at SpanScanner.error$1 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84662:19)
+    at ScssParser0._stylesheet0$_singleExpression$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120996:17)
+    at ScssParser0._stylesheet0$_expression$4$bracketList$consumeNewlines$singleEquals$until (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120666:40)
+    at ScssParser0._stylesheet0$_expression$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:120901:19)
+    at ScssParser0._stylesheet0$_declarationOrBuffer$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119506:23)
+    at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119423:35)
+    at ScssParser0._stylesheet0$_statement$1$root (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119317:162)
+    at ScssParser0._stylesheet0$_statement$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119320:19)
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1755009992109[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1755010013417[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_components/Sidebar.tsx.tmp.37781.1755010288433[39m
+- [90m/_components/Sidebar.tsx[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto.tmp.37781.1755010327761[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_components/Menu.tsx.tmp.37781.1755010408112[39m
+- [90m/_components/Menu.tsx[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_components/Sidebar.tsx[39m
+Error: Error rendering the page: /index.vto
+    at https://deno.land/x/lume@v3.0.5/core/renderer.ts:171:19
+    at eventLoopTick (ext:core/01_core.js:217:9)
+    at async Promise.all (index 0)
+    at async concurrent (https://deno.land/x/lume@v3.0.5/core/utils/concurrent.ts:21:3)
+    at async Renderer.renderPages (https://deno.land/x/lume@v3.0.5/core/renderer.ts:157:7)
+    at async Site.#buildPages (https://deno.land/x/lume@v3.0.5/core/site.ts:793:5)
+    at async Site.update (https://deno.land/x/lume@v3.0.5/core/site.ts:711:9)
+    at async Events.dispatchEvent (https://deno.land/x/lume@v3.0.5/core/events.ts:46:13)
+    at async callback (https://deno.land/x/lume@v3.0.5/core/watcher.ts:121:24)
+Caused by TemplateError: Error in template /index.vto:195:5
+
+{{ comp.Sidebar({
+
+
+    at eval (eval at compile (https://deno.land/x/vento@v1.15.0/src/environment.ts:162:25), <anonymous>:49:17)
+    at Environment.runString (https://deno.land/x/vento@v1.15.0/src/environment.ts:101:29)
+    at eventLoopTick (ext:core/01_core.js:217:9)
+    at async VentoEngine.render (https://deno.land/x/lume@v3.0.5/plugins/vento.ts:120:20)
+    at async Renderer.render (https://deno.land/x/lume@v3.0.5/core/renderer.ts:218:19)
+    at async Renderer.#renderPage (https://deno.land/x/lume@v3.0.5/core/renderer.ts:244:12)
+    at async https://deno.land/x/lume@v3.0.5/core/renderer.ts:161:29
+Caused by Error: Component "Sidebar" not found
+    at Object.get (https://deno.land/x/lume@v3.0.5/core/components.ts:367:15)
+    at eval (eval at compile (https://deno.land/x/vento@v1.15.0/src/environment.ts:162:25), <anonymous>:10:36)
+    at Environment.runString (https://deno.land/x/vento@v1.15.0/src/environment.ts:101:29)
+    at eventLoopTick (ext:core/01_core.js:217:9)
+    at async VentoEngine.render (https://deno.land/x/lume@v3.0.5/plugins/vento.ts:120:20)
+    at async Renderer.render (https://deno.land/x/lume@v3.0.5/core/renderer.ts:218:19)
+    at async Renderer.#renderPage (https://deno.land/x/lume@v3.0.5/core/renderer.ts:244:12)
+    at async https://deno.land/x/lume@v3.0.5/core/renderer.ts:161:29
+Changes detected:
+- [90m/index.vto.tmp.37781.1755010433775[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755010498789[39m
+- [90m/styles/components/menu.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss.tmp.37781.1755010509047[39m
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss.tmp.37781.1755010518648[39m
+- [90m/styles/components/sidebar.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1755010538010[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755010896532[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755010926654[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755010998621[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011014306[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011220953[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011352776[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011439100[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011457051[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011565269[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755011611284[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755014478669[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755014488675[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755014547700[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755014712077[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss.tmp.37781.1755015847246[39m
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+Error: expected "}".
+   ╷
+60 │ }
+   │  ^
+   ╵
+  styles/components/menu.scss 60:2  @use
+  styles/main.scss 6:1              root stylesheet
+    at Object.wrapException (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:2302:47)
+    at SpanScanner.error$3$length$position (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84659:15)
+    at SpanScanner.error$1 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:84662:19)
+    at ScssParser0._stylesheet0$_styleRule$2 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119570:23)
+    at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119424:88)
+    at ScssParser0._stylesheet0$_statement$1$root (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119317:162)
+    at ScssParser0._stylesheet0$_statement$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:119320:19)
+    at tear_off.call$0 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:2655:45)
+    at ScssParser0.children$1 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:114927:33)
+    at ScssParser0._stylesheet0$_withChildren$1$3 (file:///Users/tinky-winky/Library/Caches/deno/npm/registry.npmjs.org/sass/1.89.2/sass.dart.js:122505:39)
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Changes detected:
+- [90m/index.vto.tmp.37781.1756903847311[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto.tmp.37781.1756903860854[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1756903867704[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss.tmp.37781.1756903879896[39m
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/before_after.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/sidebar.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/components/menu.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_components/Menu.tsx[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/assets/images/before_after[39m
+Changes sent to the browser
+Changes detected:
+- [90m/assets/images/process[39m
+Changes sent to the browser
+Changes detected:
+- [90m/assets/images/projects[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_components/before_after.tsx[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+Changes sent to the browser
+Changes detected:
+- [90m/styles/main.scss[39m
+Changes sent to the browser
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}
+Changes detected:
+- [90m/index.vto.tmp.37781.1758189058807[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/_config.ts.tmp.37781.1758189116122[39m
+- [90m/_config.ts[39m
+Reloading the site...
+Loading config file [90mfile:///Users/tinky-winky/projects/setify/_config.ts[39m
+🔥 /fonts/playfair-display-normal-400-900-cyrillic.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-vietnamese.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-latin-ext.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-cyrillic.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-latin-ext.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-vietnamese.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-italic-400-900-latin.woff2 <- [90m(generated)[39m
+🔥 /fonts/playfair-display-normal-400-900-latin.woff2 <- [90m(generated)[39m
+🔥 / <- [90m/index.vto[39m
+🔥 /CLAUDE/ <- [90m/CLAUDE.md[39m
+🔥 /styles/main.css <- [90m/styles/main.scss[39m
+🔥 /style.css <- [90m(generated)[39m
+🔥 /favicon.ico <- [90m(generated)[39m
+🔥 /apple-touch-icon.png <- [90m(generated)[39m
+🔥 assets/images/favicon.svg <- [90m(generated)[39m
+🔥 /assets/images/logo.svg <- [90m/assets/images/logo.svg[39m
+🔥 /assets/images/favicon.svg <- [90m/assets/images/favicon.svg[39m
+🍾 Site built into [90m./_site[39m
+  [90m17 files generated in 0.60 seconds[39m
+Changes detected:
+- [90m/CNAME.tmp.37781.1758189123768[39m
+- [90m/CNAME[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto.tmp.37781.1758189282914[39m
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/assets/images/Posmotrim.svg[39m
+🔥 /assets/images/Posmotrim.svg <- [90m/assets/images/Posmotrim.svg[39m
+Changes sent to the browser
+Changes detected:
+- [90m/index.vto[39m
+🔥 / <- [90m/index.vto[39m
+Changes sent to the browser
+Changes detected:
+- [90m/[39m
+TypeError: Cannot read properties of undefined (reading 'children')
+    at FS.removeEntry (https://deno.land/x/lume@v3.0.5/core/fs.ts:254:12)
+    at FS.update (https://deno.land/x/lume@v3.0.5/core/fs.ts:107:14)
+    at Site.update (https://deno.land/x/lume@v3.0.5/core/site.ts:679:29)
+    at eventLoopTick (ext:core/01_core.js:217:9)
+    at async Events.dispatchEvent (https://deno.land/x/lume@v3.0.5/core/events.ts:46:13)
+    at async callback (https://deno.land/x/lume@v3.0.5/core/watcher.ts:121:24)
+Socket errored ErrorEvent {
+  bubbles: false,
+  cancelable: false,
+  composed: false,
+  currentTarget: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  defaultPrevented: false,
+  eventPhase: 2,
+  srcElement: null,
+  target: WebSocket {
+    url: "",
+    readyState: 3,
+    extensions: "",
+    protocol: "",
+    binaryType: "arraybuffer",
+    bufferedAmount: 0,
+    onmessage: [Function (anonymous)],
+    onerror: [Function (anonymous)],
+    onclose: [Function (anonymous)],
+    onopen: [Function (anonymous)]
+  },
+  returnValue: true,
+  timeStamp: 0,
+  type: "error",
+  message: "Unexpected EOF",
+  filename: "",
+  lineno: 0,
+  colno: 0,
+  error: Error: Unexpected EOF
+    at WebSocket.[[[eventLoop]]] (ext:deno_websocket/01_websocket.js:515:25)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+}

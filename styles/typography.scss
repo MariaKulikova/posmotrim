@@ -2,7 +2,7 @@
 $font-display: 'Manrope', 'Helvetica', 'Arial', sans-serif;
 $font-body: 'Manrope', 'Helvetica', 'Arial', sans-serif;
 
-// Font Weights (только используемые)
+
 $font-regular: 400;
 $font-medium: 500;
 $font-semibold: 600;
@@ -51,6 +51,13 @@ $label-medium-line-height: 16px;
   font-size: $display-medium-size;
   line-height: $display-medium-line-height;
   font-weight: $font-bold;
+}
+
+@mixin display-small {
+  font-family: $font-display;
+  font-size: $display-small-size;
+  line-height: $display-small-line-height;
+  font-weight: $font-regular;
 }
 
 @mixin headline-large {
