@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  &__links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  &__link {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    transition: opacity 0.3s ease;
+    
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

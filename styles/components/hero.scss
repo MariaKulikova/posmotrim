@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 48px 32px;
+  
+  &__title {
+    font-size: 144px;
+    line-height: 105%;
+    font-weight: 800;
+    margin: 0 0 48px 0;
+    
+  }
+  
+  &__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    max-width: 700px;
+  }
+  
+  @media (max-width: 768px) {
+    &__title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    
+    &__subtitle {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

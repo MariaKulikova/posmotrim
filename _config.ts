@@ -11,11 +11,12 @@ const site = lume({
 
 site.use(googleFonts({
   fonts:
-    "https://fonts.google.com/share?selection.family=Playfair+Display:ital,wght@0,400..900;1,400..900",
+    "https://fonts.google.com/share?selection.family=Geologica:wght@100..900",
 }));
 site.use(sass(/* Options */));
 site.use(jsx(/* Options */));
 
+site.copy(".html");
 site.add("assets");
 site.add("styles/main.scss");
 site.use(favicon({

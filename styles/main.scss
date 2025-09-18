@@ -1,6 +1,9 @@
 @use 'typography';
 @use 'colors';
 @use 'variables';
+@use 'components/header';
+@use 'components/hero';
+@use 'components/footer';
 
 * {
     margin: 0;
@@ -15,16 +18,8 @@ body {
     line-height: 1.5;
 }
 
-.layout {
+.page-container {
     min-height: 100vh;
-}
-
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 32px;
-}
-
-h1 {
-    @include typography.display-large;
+    position: relative;
+    background-color: #ffffff;
 }
