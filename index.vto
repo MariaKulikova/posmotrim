@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Посмотрим дизайн - проверка консистентности и актуальности</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <script src="/js/scroll-text.js"></script>
 </head>
 <body>
     <div class="page-container">
@@ -17,13 +18,20 @@
         <section class="hero">
             <h1 class="hero__title">
                 посмотрим<br>
-                дизайн
+                <span class="hero__changeable-text">дизайн</span>
             </h1>
             <p class="hero__subtitle">
                 проверим консистентность и актуальность, поможем поправить<br>
                 мелкие детали, и укажем если «что-то не то»
             </p>
         </section>
+
+        <div class="scroll-indicators">
+            <span class="scroll-indicator active" data-index="0"></span>
+            <span class="scroll-indicator" data-index="1"></span>
+            <span class="scroll-indicator" data-index="2"></span>
+            <span class="scroll-indicator" data-index="3"></span>
+        </div>
 
         <footer class="footer">
             <nav class="footer__links">

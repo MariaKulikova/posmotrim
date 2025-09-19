@@ -4,6 +4,8 @@
 @use 'components/header';
 @use 'components/hero';
 @use 'components/footer';
+@use 'components/scroll-indicators';
+@use 'components/animations';
 
 * {
     margin: 0;
@@ -21,5 +23,9 @@ body {
 .page-container {
     min-height: 100vh;
     position: relative;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom,
+        colors.$color-white 0%,
+        colors.$color-white 50%,
+        colors.$gradient-design 100%);
+    transition: background 0.8s ease-in-out;
 }

@@ -12,14 +12,40 @@
     line-height: 105%;
     font-weight: 800;
     margin: 0 0 48px 0;
-    
   }
-  
+
+  &__changeable-text {
+    display: inline-block;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+
+    &.distort-out {
+      animation: distortOut 0.3s ease-in-out forwards;
+    }
+
+    &.distort-in {
+      animation: distortIn 0.3s ease-in-out forwards;
+    }
+  }
+
   &__subtitle {
     font-size: 18px;
     font-weight: 400;
     color: #000;
     max-width: 700px;
+    transform-origin: center;
+
+    &.slide-out {
+      transform: translateY(0);
+      opacity: 0.7;
+      filter: blur(2px);
+      transition: all 0.15s ease-out;
+    }
+
+    &.slide-in {
+      animation: slideIn 0.3s ease-out forwards;
+    }
   }
   
   @media (max-width: 768px) {

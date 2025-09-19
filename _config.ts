@@ -17,7 +17,9 @@ site.use(sass(/* Options */));
 site.use(jsx(/* Options */));
 
 site.copy(".html");
+site.copy(".js");
 site.add("assets");
+site.add("js");
 site.add("styles/main.scss");
 site.use(favicon({
   input: "assets/images/favicon.svg",
