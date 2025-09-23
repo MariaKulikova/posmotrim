@@ -6,8 +6,7 @@ const sections = [
   },
   {
     title: "айдентику",
-    subtitle: "создадим уникальный стиль бренда, который будет отражать<br>ваши ценности и выделяться среди конкурентов"
-  },
+    subtitle: "чтоб айдентика отражала характер продукта, была актуальна и<br>соответствовала современным трендам"
   {
     title: "брендбук",
     subtitle: "чтобы все носители фирменного стиля соответсвовали брендбуку и формировали единый визуальный язык"
@@ -116,13 +115,11 @@ function updateGradientPosition(x, y) {
     const gradientPosition = 50 + (normalizedX - 0.5) * effectIntensity * 30;
     const gradientHeight = 20 - effectIntensity * 10;
 
-    // Основной градиент с одним плавным переходом
+    // Простой градиент без transparent
     container.style.background = `linear-gradient(180deg,
       #ffffff 0%,
-      #ffffff ${gradientHeight}%,
-      transparent ${gradientHeight + 5}%,
-      transparent ${gradientHeight + 35}%,
-      ${currentColor} ${gradientHeight + 70}%,
+      #ffffff 20%,
+      ${currentColor} 80%,
       ${currentColor} 100%)`;
 
     // Убираем все фильтры
