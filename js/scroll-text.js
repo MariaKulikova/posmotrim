@@ -116,11 +116,13 @@ function updateGradientPosition(x, y) {
     const gradientPosition = 50 + (normalizedX - 0.5) * effectIntensity * 30;
     const gradientHeight = 20 - effectIntensity * 10;
 
-    // Основной градиент без серых оттенков
+    // Основной градиент с одним плавным переходом
     container.style.background = `linear-gradient(180deg,
       #ffffff 0%,
       #ffffff ${gradientHeight}%,
-      ${currentColor} ${gradientHeight + 40}%,
+      transparent ${gradientHeight + 5}%,
+      transparent ${gradientHeight + 35}%,
+      ${currentColor} ${gradientHeight + 70}%,
       ${currentColor} 100%)`;
 
     // Убираем все фильтры
