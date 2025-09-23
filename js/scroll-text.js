@@ -13,8 +13,16 @@ const sections = [
     subtitle: "разработаем подробное руководство по использованию<br>фирменного стиля для всех каналов коммуникации"
   },
   {
+    title: "UX копирайтинг",
+    subtitle: "чтоб ваш сервис говорил с клиентом  на одном языке во всех точках касания"
+  },
+  {
+    title: "юзабилити",
+    subtitle: "проверим контрастность, наличие темных паттернов, использование компонентов и структуру"
+  },
+  {
     title: "сайт",
-    subtitle: "спроектируем современный и функциональный веб-ресурс,<br>который эффективно решает ваши бизнес-задачи"
+    subtitle: "чтоб ваш сайт соответствовал актуальным гайдам, не было раздражающих темных паттернов, элементы интерфейса использовались корректно"
   }
 ];
 
@@ -57,24 +65,81 @@ function updateContent(index) {
   updateGradient(index);
 }
 
+// Переменные для отслеживания позиции мыши
+let mouseX = window.innerWidth / 2;
+let mouseY = window.innerHeight / 2;
+let currentColorIndex = 0;
+
 // Функция для обновления градиента фона
 function updateGradient(index) {
+  currentColorIndex = index;
+  updateGradientPosition(mouseX, mouseY);
+}
+
+// Переменные для плавного движения
+let targetX = window.innerWidth / 2;
+let targetY = window.innerHeight / 2;
+let smoothX = targetX;
+let smoothY = targetY;
+let animationFrame = null;
+
+// Функция для обновления градиента в зависимости от позиции курсора
+function updateGradientPosition(x, y) {
   const container = document.querySelector('.page-container');
   if (container) {
     // Получаем цвета из SCSS переменных
     const gradientColors = [
-      'rgba(255, 182, 193, 0.3)', // $gradient-design
-      'rgba(173, 216, 230, 0.3)', // $gradient-identity
-      'rgba(255, 218, 185, 0.3)', // $gradient-brandbook
-      'rgba(221, 160, 221, 0.3)'  // $gradient-website
+      'rgba(248, 132, 205, 0.5)', // $gradient-design - Розовый
+      'rgba(148, 139, 241, 0.5)', // $gradient-identity - Фиолетовый
+      'rgba(232, 241, 139, 0.5)', // $gradient-brandbook - Желто-зеленый
+      'rgba(123, 226, 246, 0.5)'  // $gradient-website - Голубой
     ];
 
-    const color = gradientColors[index];
-    container.style.background = `linear-gradient(to bottom,
+    const currentColor = gradientColors[currentColorIndex];
+
+    // Нормализованные координаты курсора
+    const normalizedX = x / window.innerWidth;
+    const normalizedY = y / window.innerHeight;
+
+    // Расстояние от центра нижней части экрана
+    const centerX = 0.5;
+    const bottomY = 1;
+    const distanceFromCenter = Math.sqrt(
+      Math.pow(normalizedX - centerX, 2) +
+      Math.pow(normalizedY - bottomY, 2)
+    );
+
+    // Интенсивность эффекта зависит от близости к низу экрана
+    const effectIntensity = Math.max(0, 1 - normalizedY);
+
+    // Создаем простой и чистый градиент
+    const gradientPosition = 50 + (normalizedX - 0.5) * effectIntensity * 30;
+    const gradientHeight = 20 - effectIntensity * 10;
+
+    // Основной градиент без серых оттенков
+    container.style.background = `linear-gradient(180deg,
       #ffffff 0%,
-      #ffffff 50%,
-      ${color} 100%)`;
+      #ffffff ${gradientHeight}%,
+      ${currentColor} ${gradientHeight + 40}%,
+      ${currentColor} 100%)`;
+
+    // Убираем все фильтры
+    container.style.filter = 'none';
+
+    // Плавный переход только для градиента
+    container.style.transition = 'background 0.3s ease-out';
   }
+}
+
+// Функция для плавного следования за курсором
+function smoothFollow() {
+  // Интерполяция для плавного движения
+  smoothX += (targetX - smoothX) * 0.1;
+  smoothY += (targetY - smoothY) * 0.1;
+
+  updateGradientPosition(smoothX, smoothY);
+
+  animationFrame = requestAnimationFrame(smoothFollow);
 }
 
 // Функция для обновления индикаторов
@@ -214,12 +279,21 @@ function handleIndicatorClick(event) {
   }
 }
 
+// Обработчик движения мыши
+function handleMouseMove(event) {
+  targetX = event.clientX;
+  targetY = event.clientY;
+  mouseX = event.clientX;
+  mouseY = event.clientY;
+}
+
 // Инициализация
 document.addEventListener('DOMContentLoaded', function() {
   // Добавляем обработчики событий
   document.addEventListener('wheel', handleScroll, { passive: false });
   document.addEventListener('touchstart', handleTouchStart, { passive: true });
   document.addEventListener('touchend', handleTouchEnd, { passive: true });
+  document.addEventListener('mousemove', handleMouseMove);
 
   // Добавляем обработчики для индикаторов
   const indicators = document.querySelectorAll('.scroll-indicator');
@@ -232,4 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Устанавливаем начальный контент и градиент
   updateContent(0);
+
+  // Запускаем плавную анимацию следования
+  smoothFollow();
 });
