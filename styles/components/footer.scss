@@ -14,9 +14,11 @@
     font-weight: 500;
     text-decoration: none;
     color: #000;
-    transition: opacity 0.3s ease;
-    
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: inline-block;
+
     &:hover {
+      transform: scale(1.15);
       opacity: 0.6;
     }
   }
