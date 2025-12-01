@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Посмотрим дизайн - проверка консистентности и актуальности</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <script src="/js/cursor-trail.js"></script>
     <script src="/js/scroll-text.js"></script>
 </head>
 <body>
@@ -13,12 +14,16 @@
             <div class="header__logo">
                 <img src="/assets/images/Posmotrim.svg" alt="Посмотрим">
             </div>
+            <nav class="header__links">
+                <a href="mailto:posmotrim.design@gmail.com" class="header__link">
+                    posmotrim.design@gmail.com
+                </a>
+            </nav>
         </header>
 
         <section class="hero">
             <h1 class="hero__title">
-                посмотрим<br>
-                <span class="hero__changeable-text">дизайн</span>
+                <span class="hero__main-text">Посмотрим</span> <span class="hero__changeable-text">дизайн</span>
             </h1>
             <p class="hero__subtitle">
                 проверим консистентность и актуальность, поможем поправить<br>
@@ -26,23 +31,16 @@
             </p>
         </section>
 
-        <div class="scroll-indicators">
-            <span class="scroll-indicator active" data-index="0"></span>
-            <span class="scroll-indicator" data-index="1"></span>
-            <span class="scroll-indicator" data-index="2"></span>
-            <span class="scroll-indicator" data-index="3"></span>
-        </div>
-
         <footer class="footer">
-            <nav class="footer__links">
-                <a href="https://www.behance.net/posmotrim" target="_blank" rel="noopener noreferrer" class="footer__link">
-                    behance
+            <nav class="footer__links footer__links--center">
+                <a href="https://www.behance.net/posmotrim" target="_blank" rel="noopener noreferrer" class="footer__link footer__link--icon" aria-label="Behance">
+                    <img src="/assets/images/Behance.svg" alt="Behance">
                 </a>
-                <a href="https://t.me/fix_spacing" target="_blank" rel="noopener noreferrer" class="footer__link">
-                    tg
+                <a href="https://www.instagram.com/posmotrim.design" target="_blank" rel="noopener noreferrer" class="footer__link footer__link--icon footer__link--instagram" aria-label="Instagram">
+                    <img src="/assets/images/Instagram.svg" alt="Instagram">
                 </a>
-                <a href="https://www.instagram.com/posmotrim.design" target="_blank" rel="noopener noreferrer" class="footer__link">
-                    instagram
+                <a href="https://t.me/fix_spacing" target="_blank" rel="noopener noreferrer" class="footer__link footer__link--icon footer__link--telegram" aria-label="Telegram">
+                    <img src="/assets/images/Telegram.svg" alt="Telegram">
                 </a>
             </nav>
         </footer>

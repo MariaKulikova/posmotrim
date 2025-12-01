@@ -3,13 +3,12 @@
 @use 'variables';
 @use 'components/header';
 @use 'components/footer';
-@use 'components/scroll-indicators';
-@use 'components/animations';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><text x="0" y="32" font-size="32">👀</text></svg>') 20 16, default !important;
 }
 
 body {
@@ -17,6 +16,15 @@ body {
     color: colors.$color-text-primary;
     background-color: colors.$color-background;
     line-height: 1.5;
+}
+
+a, button, [role="button"] {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><text x="0" y="32" font-size="32">👆</text></svg>') 12 0, pointer !important;
+    transition: transform 0.2s ease;
+}
+
+a img, button img {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><text x="0" y="32" font-size="32">👆</text></svg>') 12 0, pointer !important;
 }
 
 .page-container {
@@ -33,48 +41,23 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  padding: 48px 32px;
+  padding: 48px 40px;
 
   &__title {
-    font-size: 96px;
-    line-height: 105%;
-    font-weight: 800;
-    margin: 0 0 80px 0;
-    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+    min-height: 32px;
   }
 
-  &__changeable-text {
-    display: inline-block;
-    position: relative;
-    perspective: 1000px;
-    transform-style: preserve-3d;
-
-    &.distort-out {
-      animation: distortOut 0.3s ease-in-out forwards;
-    }
-
-    &.distort-in {
-      animation: distortIn 0.3s ease-in-out forwards;
-    }
-  }
 
   &__subtitle {
     font-size: 18px;
     font-weight: 300;
     color: #000;
     max-width: 700px;
-    transform-origin: center;
-
-    &.slide-out {
-      transform: translateY(0);
-      opacity: 0.7;
-      filter: blur(2px);
-      transition: all 0.15s ease-out;
-    }
-
-    &.slide-in {
-      animation: slideIn 0.3s ease-out forwards;
-    }
+    height: 80px;
   }
 
   @media (max-width: 768px) {

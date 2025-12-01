@@ -1,38 +1,28 @@
 // Cursor trail gradient effect
 document.addEventListener('DOMContentLoaded', () => {
   const pageContainer = document.querySelector('.page-container');
+  if (!pageContainer) return;
 
-  if (!pageContainer) {
-    console.error('Page container not found');
-    return;
-  }
-
-  console.log('Cursor trail initialized');
-
-  // Array to store trail positions
   const trailPositions = [];
-  const maxTrailLength = 30; // Number of trail points
-  const fadeDuration = 1500; // Duration in ms for trail to fade out
+  const MAX_TRAIL_LENGTH = 30;
+  const FADE_DURATION = 1500;
 
   // Track mouse movement
   document.addEventListener('mousemove', (e) => {
     const now = Date.now();
 
-    // Add new position to trail - using pageX/pageY for absolute positioning
     trailPositions.push({
       x: e.pageX,
       y: e.pageY,
       timestamp: now
     });
 
-    // Remove old positions that have exceeded fade duration
-    while (trailPositions.length > 0 &&
-           now - trailPositions[0].timestamp > fadeDuration) {
+    // Remove old positions
+    while (trailPositions.length > 0 && now - trailPositions[0].timestamp > FADE_DURATION) {
       trailPositions.shift();
     }
 
-    // Also limit by max trail length
-    if (trailPositions.length > maxTrailLength) {
+    if (trailPositions.length > MAX_TRAIL_LENGTH) {
       trailPositions.shift();
     }
 
@@ -45,21 +35,27 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Create radial gradients at each trail position
     const gradients = trailPositions.map((pos, index) => {
       const age = Date.now() - pos.timestamp;
-      const opacity = Math.max(0, 1 - (age / fadeDuration)); // Fade out over time
-      const sizeMultiplier = 1 - (index / trailPositions.length) * 0.3; // Smaller towards the end
-      const size = 400 * sizeMultiplier;
+      const opacity = Math.max(0, 1 - (age / FADE_DURATION));
+      const sizeMultiplier = 1 - (index / trailPositions.length) * 0.3;
+      const size = 350 * sizeMultiplier;
 
-      // Using a more vibrant purple/lavender color
       return `radial-gradient(circle ${size}px at ${pos.x}px ${pos.y}px,
-        rgba(200, 180, 255, ${opacity * 0.8}) 0%,
-        rgba(230, 220, 255, ${opacity * 0.4}) 40%,
-        transparent 70%)`;
+        rgba(60, 213, 0, ${opacity * 0.15}) 0%,
+        rgba(60, 213, 0, ${opacity * 0.14}) 10%,
+        rgba(60, 213, 0, ${opacity * 0.12}) 20%,
+        rgba(60, 213, 0, ${opacity * 0.1}) 30%,
+        rgba(120, 223, 50, ${opacity * 0.08}) 40%,
+        rgba(180, 234, 100, ${opacity * 0.06}) 50%,
+        rgba(220, 244, 180, ${opacity * 0.05}) 60%,
+        rgba(255, 255, 255, ${opacity * 0.04}) 70%,
+        rgba(255, 255, 255, ${opacity * 0.03}) 80%,
+        rgba(255, 255, 255, ${opacity * 0.02}) 90%,
+        rgba(255, 255, 255, ${opacity * 0.01}) 95%,
+        transparent 100%)`;
     });
 
-    // Combine all gradients with white background
     pageContainer.style.background = `${gradients.join(', ')}, #ffffff`;
   }
 
@@ -67,11 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
   setInterval(() => {
     const now = Date.now();
     let changed = false;
-    while (trailPositions.length > 0 &&
-           now - trailPositions[0].timestamp > fadeDuration) {
+
+    while (trailPositions.length > 0 && now - trailPositions[0].timestamp > FADE_DURATION) {
       trailPositions.shift();
       changed = true;
     }
+
     if (changed || trailPositions.length > 0) {
       updateGradient();
     }

@@ -1,14 +1,37 @@
 .header {
   position: fixed;
   top: 24px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  padding: 0 40px;
   z-index: 100;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   &__logo {
     img {
       width: 112px;
       height: 100%;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__link {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: inline-block;
+
+    &:hover {
+      transform: scale(1.15);
+      opacity: 0.6;
     }
   }
 }
