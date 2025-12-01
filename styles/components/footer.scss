@@ -27,6 +27,10 @@
     &:hover {
       opacity: 0.6;
     }
+
+    &--mobile {
+      display: none;
+    }
   }
 
   &__links {
@@ -76,6 +80,37 @@
     &:hover {
       transform: scale(1.15);
       opacity: 0.6;
+    }
+  }
+
+  @media (max-width: 768px) {
+    bottom: 20px;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 16px;
+
+    &__email {
+      &--mobile {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+    &__links {
+      gap: 12px;
+    }
+
+    &__link {
+      &--icon {
+        width: 32px;
+        height: 32px;
+      }
+
+      &--instagram {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }

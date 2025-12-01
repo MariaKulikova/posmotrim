@@ -34,4 +34,20 @@
       opacity: 0.6;
     }
   }
+
+  @media (max-width: 768px) {
+    top: 16px;
+    padding: 0 20px;
+    justify-content: center;
+
+    &__logo {
+      img {
+        width: 90px;
+      }
+    }
+
+    &__links {
+      display: none;
+    }
+  }
 }
